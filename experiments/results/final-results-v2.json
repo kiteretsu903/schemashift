@@ -1,0 +1,150 @@
+{
+  "bfcl": {
+    "base": {
+      "correct": 60,
+      "rate": 0.75
+    },
+    "categories": {
+      "irrelevance": {
+        "base": 0.8125,
+        "rft": 0.875
+      },
+      "multiple": {
+        "base": 1.0,
+        "rft": 0.8125
+      },
+      "parallel": {
+        "base": 0.5625,
+        "rft": 0.75
+      },
+      "parallel_multiple": {
+        "base": 0.5,
+        "rft": 0.5
+      },
+      "simple_python": {
+        "base": 0.875,
+        "rft": 0.875
+      }
+    },
+    "guardrail_passed": true,
+    "regression_percentage_points": -1.25,
+    "rft": {
+      "correct": 61,
+      "rate": 0.7625
+    },
+    "rows": 80,
+    "source_commit": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8"
+  },
+  "billing": {
+    "account_monthly_ceiling_usd": 50.0,
+    "final_posted_august_usage_usd": 36.940805111,
+    "project_operational_cutoff_usd": 45.0,
+    "remaining_below_project_cutoff_usd": 8.059194889
+  },
+  "bootstrap": {
+    "base_to_rft": {
+      "difference": 0.20833333333333334,
+      "lower_95": 0.11666666666666667,
+      "upper_95": 0.3
+    },
+    "base_to_sft": {
+      "difference": 0.25833333333333336,
+      "lower_95": 0.18333333333333332,
+      "upper_95": 0.3335416666666636
+    },
+    "pairs": 120,
+    "rft_to_sft": {
+      "difference": 0.05,
+      "lower_95": -0.075,
+      "upper_95": 0.16666666666666666
+    },
+    "samples": 10000,
+    "seed": 20260804
+  },
+  "development": {
+    "base_minimal": {
+      "mean_reward": 0.195,
+      "prohibited_side_effect_rate": 0.0,
+      "successes": 0,
+      "total": 80,
+      "valid_trajectory_rate": 1.0
+    },
+    "base_optimized": {
+      "mean_reward": 0.522,
+      "prohibited_side_effect_rate": 0.0,
+      "successes": 36,
+      "total": 80,
+      "valid_trajectory_rate": 1.0
+    },
+    "rft_optimized": {
+      "mean_reward": 0.62,
+      "prohibited_side_effect_rate": 0.125,
+      "successes": 50,
+      "total": 80,
+      "valid_trajectory_rate": 0.725
+    },
+    "sft_optimized": {
+      "mean_reward": 0.75,
+      "prohibited_side_effect_rate": 0.0,
+      "successes": 60,
+      "total": 80,
+      "valid_trajectory_rate": 1.0
+    }
+  },
+  "final_system_recommendation": "sft",
+  "model": "accounts/fireworks/models/qwen3-4b",
+  "private": {
+    "base_optimized": {
+      "mean_reward": 0.4125,
+      "orbit_successes": 30,
+      "orbit_total": 80,
+      "prohibited_side_effect_rate": 0.0,
+      "successes": 50,
+      "total": 120,
+      "valid_trajectory_rate": 1.0
+    },
+    "rft_optimized": {
+      "mean_reward": 0.6201666666666665,
+      "orbit_successes": 50,
+      "orbit_total": 80,
+      "prohibited_side_effect_rate": 0.15,
+      "successes": 75,
+      "total": 120,
+      "valid_trajectory_rate": 0.675
+    },
+    "sft_optimized": {
+      "mean_reward": 0.675,
+      "orbit_successes": 50,
+      "orbit_total": 80,
+      "prohibited_side_effect_rate": 0.0,
+      "successes": 81,
+      "total": 120,
+      "valid_trajectory_rate": 1.0
+    }
+  },
+  "raw_artifact_hashes": {
+    "bfcl_base_tree_sha256": "5f3aa86f32b8da1a95471526a6940de50257e5896747a0e55902e4a410b9c6a4",
+    "bfcl_rft_tree_sha256": "7ab9f15115a3f8e6b961ca733065a622579e7791832a1c53e8a6ce29b0438267",
+    "development_base_minimal_jsonl": "e7f3709631829fc33f9bad7da4b3bdc5c853b7894e11166ad61902811f725b67",
+    "development_base_optimized_jsonl": "90eac80bf12a634a967fa6db5c680979e47f7ac38472a35e7632b7fe3705fe30",
+    "development_rft_jsonl": "1bb6a34ee1e02f547fb0f33ddf22f6632577042348fef5c94fce46e3a407f6e1",
+    "development_sft_jsonl": "045a246eac09936ef93b22bba4f32a2e9bbb0a04f872e491be1f79bc4eacac38",
+    "private_base_jsonl": "0b7cecf22d856b18f985110a49f128a0ddb446108923487d610d7e45952b3e07",
+    "private_rft_jsonl": "1e41caed1e8e5924722f37ae86ccb83186a835328ffbc0aa9e9ed73cf8e5eac7",
+    "private_sft_jsonl": "c37c15eda5ff66b727fe78910b82bd3270030845a90bb831efac477743ab98af",
+    "rft_training_rollouts_jsonl": "ff06b0b12e73e45fbbfeb89d6afc67f70bf809c8a1e554ec9e2a6e565975d387",
+    "sft_render_samples_jsonl": "346f28876c6eaa8c9f0a349c7aa16efe2250e2b6143fc113a45b7f2aa8dd1446"
+  },
+  "success_gates": {
+    "bfcl_regression_at_most_5pp": true,
+    "expert_replays_320_at_score_1": true,
+    "overall_project_success": false,
+    "rft_at_least_20pp_over_base": true,
+    "rft_at_least_60pct_orbit": true,
+    "rft_at_least_70pct_private": false,
+    "rft_at_least_95pct_valid": false,
+    "rft_bootstrap_lower_bound_above_zero": true,
+    "rft_zero_prohibited_side_effects": false
+  },
+  "version": "schemashift-final-results-v2"
+}

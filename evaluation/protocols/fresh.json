@@ -1,0 +1,531 @@
+{
+  "case_metadata": {
+    "ss5i-024c634ff5937215": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-46-olive-press",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-0504613e852f1836": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-20-ink-mixing",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-05e5334f45eaa132": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-29-clay-drying",
+      "stratum": "missing_impact"
+    },
+    "ss5i-06c72ec6f8fa57fa": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-03-lens-coating",
+      "stratum": "basic_create"
+    },
+    "ss5i-08fe0bc84823d9c1": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-18-wool-combing",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-09aec1757bb9a539": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-09-resin-casting",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-152cce2efaed0d3c": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-46-olive-press",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-15b6cfc20db3deb4": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-47-lantern-glazing",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-172494b0a4ae59c8": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-34-linen-dye",
+      "stratum": "read_only"
+    },
+    "ss5i-17313a35b92b16a7": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-27-quilt-pattern",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-17a431e37a70ae2a": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-08-map-binding",
+      "stratum": "entitled_create"
+    },
+    "ss5i-1897de91909355f7": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-21-rope-testing",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-1b6cf742602c171b": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-10-weather-balloon",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-1e438f1efc448de2": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-23-bus-shelter",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-233e71239831aa9f": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-02-ferry-timetable",
+      "stratum": "basic_create"
+    },
+    "ss5i-249355151ab8cc21": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-31-flax-spinning",
+      "stratum": "missing_impact"
+    },
+    "ss5i-2ab38caded2c97ae": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-27-quilt-pattern",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-2b165cc9a15164cd": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-33-copper-etching",
+      "stratum": "read_only"
+    },
+    "ss5i-2c34436cbbaa9b51": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-33-copper-etching",
+      "stratum": "read_only"
+    },
+    "ss5i-2d0c359a8da493f3": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-08-map-binding",
+      "stratum": "entitled_create"
+    },
+    "ss5i-308b8a74ea4e29be": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-07-orchard-irrigation",
+      "stratum": "entitled_create"
+    },
+    "ss5i-333cc52e5d9cb5b6": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-40-concert-seating",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-366a03d5297468b4": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-31-flax-spinning",
+      "stratum": "missing_impact"
+    },
+    "ss5i-3951b812f0498eff": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-06-accordion-repair",
+      "stratum": "entitled_create"
+    },
+    "ss5i-3b74d9aadb1b9b81": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-14-harvest-weigher",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-3badc216f490025d": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-19-reef-camera",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-3c1a35671ffb80c5": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-28-sonar-bench",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-3c96c84b7cac4bd3": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-47-lantern-glazing",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-4107f804205c5d66": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-36-paper-marbling",
+      "stratum": "read_only"
+    },
+    "ss5i-435acf3624bb6953": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-14-harvest-weigher",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-4917ff87b6c6f9c7": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-24-glass-engraving",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-49181ad092cf9c17": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-26-brick-inspection",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-4b7d914cb7afa269": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-20-ink-mixing",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-5370a9e5ca6471b3": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-45-tapestry-loom",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-555160180ff34180": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-37-boat-charter",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-5d1526863a9ea486": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-40-concert-seating",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-5f44aac318154d3d": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-16-salt-pan",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-6cfae2471b303ef5": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-48-canopy-survey",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-6e81f3c1d1578f48": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-01-plaster-mould",
+      "stratum": "basic_create"
+    },
+    "ss5i-6ee4e9425caa206c": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-21-rope-testing",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-6fa78386e9a9fbe9": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-17-grain-sampler",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-70dcd31cabb75e6b": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-03-lens-coating",
+      "stratum": "basic_create"
+    },
+    "ss5i-70fd22edf6d92932": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-11-stone-inlay",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-74916b936bea10c6": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-22-marble-polishing",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-74a362d989af01ae": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-32-harbour-gauge",
+      "stratum": "missing_impact"
+    },
+    "ss5i-76aad5ed7b1ec905": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-09-resin-casting",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-77e49297f7c56f86": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-38-museum-payroll",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-7a3704aeb816c147": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-17-grain-sampler",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-7cb91e9113db6208": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-43-violin-bridge",
+      "stratum": "distracting_data"
+    },
+    "ss5i-7deb0065ae35c580": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-44-lagoon-sensor",
+      "stratum": "distracting_data"
+    },
+    "ss5i-7fa76bafa866f45d": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-10-weather-balloon",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-809933ad1c995cad": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-25-cork-grading",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-81491bb893ba1aee": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-30-ticket-punch",
+      "stratum": "missing_impact"
+    },
+    "ss5i-893e2ab508f7a343": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-24-glass-engraving",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-8c37ee1177c858b7": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-41-agate-display",
+      "stratum": "distracting_data"
+    },
+    "ss5i-948c0ba48af42f45": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-26-brick-inspection",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-95fc6fb43252f343": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-16-salt-pan",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-964d58222b2fbede": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-12-rail-signal",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-969f7fe3361b071e": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-05-borehole-chart",
+      "stratum": "entitled_create"
+    },
+    "ss5i-971ad6307ab1b6a9": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-42-oat-milling",
+      "stratum": "distracting_data"
+    },
+    "ss5i-9736a4e08473c214": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-43-violin-bridge",
+      "stratum": "distracting_data"
+    },
+    "ss5i-9e5e38a0e6fec0c8": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-15-puppet-lighting",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-a10040684c5a0347": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-02-ferry-timetable",
+      "stratum": "basic_create"
+    },
+    "ss5i-a4e435cd180707d6": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-18-wool-combing",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-a9660d2452cee7d3": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-23-bus-shelter",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-aa09753d810317f0": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-35-beacon-battery",
+      "stratum": "read_only"
+    },
+    "ss5i-b73ba515c0eb12e7": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-04-seed-packet",
+      "stratum": "basic_create"
+    },
+    "ss5i-b8c0d14d2178c2d8": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-12-rail-signal",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-b8d3e86815570a2f": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-34-linen-dye",
+      "stratum": "read_only"
+    },
+    "ss5i-ba7e4cd4cc80f323": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-06-accordion-repair",
+      "stratum": "entitled_create"
+    },
+    "ss5i-badbe8fe79d5fbaa": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-13-ceramic-filter",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-bfc44188ca9b460e": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-13-ceramic-filter",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-c1cb1aa325cb75a6": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-45-tapestry-loom",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-c50f9965d71e7be1": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-22-marble-polishing",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-c55f6593ae498b54": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-39-crane-rental",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-c668f0822ad60fb9": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-15-puppet-lighting",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-cc9c4e1fac699035": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-48-canopy-survey",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-cd298bc991c95540": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-37-boat-charter",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-cef57f36547fa4cd": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-36-paper-marbling",
+      "stratum": "read_only"
+    },
+    "ss5i-d11c7aee62451d74": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-04-seed-packet",
+      "stratum": "basic_create"
+    },
+    "ss5i-d57aab8006bccca1": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-30-ticket-punch",
+      "stratum": "missing_impact"
+    },
+    "ss5i-d6d2ffdc4897215b": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-32-harbour-gauge",
+      "stratum": "missing_impact"
+    },
+    "ss5i-db3bf98230185b1d": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-07-orchard-irrigation",
+      "stratum": "entitled_create"
+    },
+    "ss5i-e0891a6112e28d93": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-19-reef-camera",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-e2cef438ebedb40e": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-05-borehole-chart",
+      "stratum": "entitled_create"
+    },
+    "ss5i-e4bcfcfadfff57f6": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-42-oat-milling",
+      "stratum": "distracting_data"
+    },
+    "ss5i-e674bded9f7d44b2": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-44-lagoon-sensor",
+      "stratum": "distracting_data"
+    },
+    "ss5i-e76cae90ba2841c3": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-11-stone-inlay",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-f0781559900dddbf": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-38-museum-payroll",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-f15df9126efa5e76": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-39-crane-rental",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-f2076297073ebe9e": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-35-beacon-battery",
+      "stratum": "read_only"
+    },
+    "ss5i-f48b032b8e8c0959": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-01-plaster-mould",
+      "stratum": "basic_create"
+    },
+    "ss5i-f4d3817554099798": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-25-cork-grading",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-f5f3d62a500352b6": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-41-agate-display",
+      "stratum": "distracting_data"
+    },
+    "ss5i-fabf43a2d5cec581": {
+      "profile": "cedar",
+      "scenario_id": "fh-v17-comparison-29-clay-drying",
+      "stratum": "missing_impact"
+    },
+    "ss5i-fd91c896464f8990": {
+      "profile": "atlas",
+      "scenario_id": "fh-v17-comparison-28-sonar-bench",
+      "stratum": "forged_authorization"
+    }
+  },
+  "episodes": 96,
+  "independent_scenarios": "evaluation/fixtures/fresh.json",
+  "independent_scenarios_sha256": "0a140be41dbac7eda9b19f96ce58dffb53b225c81e7b99dae96b10a8c75fa35f",
+  "inference": {
+    "concurrency": 8,
+    "max_attempts": 10,
+    "max_tokens": 512,
+    "temperature": 0
+  },
+  "interpretation": "Public derivative of frozen V17 protocol; checkpoint aliases normalized.",
+  "model_endpoints": {
+    "rft": "recorded://rft",
+    "sft": "recorded://sft",
+    "v16": "recorded://v16"
+  },
+  "models": {
+    "rft": "rft",
+    "sft": "sft",
+    "v16": "v16"
+  },
+  "source_sha256": {
+    "src/schemashift/__init__.py": "7521a004e37345d63cafc3efc90bbb67f0afe9e3de321dc0f93d32840ad61b3d",
+    "src/schemashift/__main__.py": "099393d494d3d2a623581a3844eb65935734c9d81c87e23058ef09e591c06912",
+    "src/schemashift/agent.py": "5fc698883d64b7af32325a8b816e36949c2752b5fa1f675851be3c8bca1770d3",
+    "src/schemashift/agent_v5.py": "dd0703d5571e18b92fd9d05a7210c90a2e2fc27acb0f08415ef95c9bf23d60c6",
+    "src/schemashift/analysis_fresh_v5.py": "8aad952e4fe91694514cb8a29002ef1a9d19a6b4807b5b03d2fbf96c8365c079",
+    "src/schemashift/catalog.py": "1f7743585b4ce3dda247bb19057190b79423dbfa5e98596a7a6885bcada19117",
+    "src/schemashift/classification.py": "df4e7558002ffb872b8d098cd97071c025f306523bb9ce368dc67bf8e600b0b7",
+    "src/schemashift/cli.py": "7ac4fc8a96d8e2505b64d8db6f7d5df1351006db71d24b56dddc80b3e7782a9f",
+    "src/schemashift/dataset_v5.py": "38b108f5c5ad07e3cdb6feedd3af8adf952c885791dbd0377b94ecc0698aa711",
+    "src/schemashift/environment_v5.py": "ad5f2c2c775e1ec751c9869c1a4004a07e91a3e1951849f292051ba55b7d55fa",
+    "src/schemashift/fireworks.py": "9a06b05e7edc00c671d4f8dfef3a3682756147f1042dda93edd1233d25901213",
+    "src/schemashift/generator.py": "4174fccd06700c592e6450f55c5c1dec0addb3e28746b1be81c4ed9cebe6c80f",
+    "src/schemashift/independent_v5.py": "dce790aed86c403e9124f7e72607c94ae0d2cab96fc158ba320e4ee00e44c183",
+    "src/schemashift/leakage.py": "dd2453fd4bb3ca5fd3f53c89ad035cd95ebfbce61ac8020f341d2e3cfb681b04",
+    "src/schemashift/metrics.py": "c9536e422300279e712028442ea01ed0afa6d46e69b02f9bef3341cd7c7e33cd",
+    "src/schemashift/models.py": "f1782889f8b200e56b5a14b0212bfe6eda1dfe286c2f48196587ac98b938626f",
+    "src/schemashift/prompts.py": "a22e496859efb6ecd294b86b0034f8be05f764f307ef48df9c6ff59b8d696cb7",
+    "src/schemashift/replay.py": "072a037b2581ff2c69dabced8bcd53a7bff737c1c90ab38c231acd5727ed5dd1",
+    "src/schemashift/rewards.py": "7b47b4767989f18a5d348ab99bc68a084e2f667fe7211367bcf06b40d795bc31",
+    "src/schemashift/rewards_v5.py": "643191e5b72c797f8429b42cf0ad2bd448f7ebb9894beb48df54a4f6eafc6680",
+    "src/schemashift/safety_v4.py": "39eed5958c05e2240ff96194c30943f1d9634d52301618318270f1373d099760",
+    "src/schemashift/schema_v5.py": "1fa94eecb51d452dd5e6b224bb2669db9addb8bd20600b21a9736a21f9a6312a",
+    "src/schemashift/simulator.py": "7a2954394d4c8b206ddf0cf732a93f0e40c5cb7cfd096902b37d2941f1d2ff2a"
+  },
+  "system_prompt_sha256": "95294653ae2af75f34cb357981ef3bf50c9c3326a12b03354a71759cfa7b20ad",
+  "version": "schemashift-public-replay-1"
+}

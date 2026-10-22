@@ -1,0 +1,8 @@
+# Install in an isolated Python 3.12 environment. The external recipe is pinned
+# because Fireworks documents async_rl_loop as experimental.
+-e .
+fireworks-ai[training]==1.2.6
+tinker==0.23.0
+tinker-cookbook==0.4.3
+transformers==5.5.4
+fireworks-training-cookbook @ git+https://github.com/fw-ai/cookbook.git@152faf05ae6f039b74158d2a84e133e65ad96071#subdirectory=training

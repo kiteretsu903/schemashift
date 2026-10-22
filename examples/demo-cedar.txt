@@ -1,0 +1,13 @@
+Scripted simulator demonstration (expert actions; no model inference)
+
+Active service API: Cedar.
+Register a problem for records@plaster-mould-registry.example in the plaster mould inventory. Enter 'Mould P8 has no curing date' exactly, with low impact. This request ends at creation.
+
+1. cedar_search_organization {"lookup_email": "records@plaster-mould-registry.example"}
+   {"account_ref": "ORG::T17/798391#A-01", "contact_email": "previous@plaster-mould-office.example", "ok": true, "plan": "Workshop"}
+2. cedar_open_ticket {"impact_level": "low", "issue_text": "Mould P8 has no curing date", "organization_key": "ORG::T17/798391#A-01"}
+   {"incident_ref": "ISSUE::T17/798391#Q-01", "ok": true, "status": "open"}
+3. complete_workflow {"result": "ISSUE::T17/798391#Q-01", "summary": "Incident created."}
+   {"ok": true, "status": "completed"}
+
+Exact task success: True; terminal action: complete_workflow

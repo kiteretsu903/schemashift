@@ -1,0 +1,400 @@
+{
+  "fresh": {
+    "models": {
+      "rft": {
+        "error_category_episodes": {
+          "authorization_violation": 0,
+          "non_executable_tool_output": 1,
+          "other_argument_or_schema_error": 0,
+          "other_exact_text_error": 0,
+          "other_incomplete_or_wrong_outcome": 6,
+          "out_of_scope_action": 2,
+          "out_of_scope_mutation": 2,
+          "post_terminal_mutation": 0,
+          "prerequisite_violation": 0,
+          "punctuation_or_whitespace_only": 0,
+          "unnecessary_approval": 0,
+          "unnecessary_clarification": 1,
+          "wrong_mutation_target": 5
+        },
+        "summary": {
+          "api_errors": 0,
+          "blocked_mutation_attempt_episodes": 7,
+          "failure_reasons": {
+            "model_stopped_without_terminal_tool": 1,
+            "mutation_not_grounded": 5,
+            "mutation_outside_task_scope": 2,
+            "terminal outcome incorrect": 7
+          },
+          "post_terminal_proposal_episodes": 0,
+          "rejected_calls_with_changes": 0,
+          "successes": 81,
+          "suppressed_mutation_proposals": 0,
+          "tasks": 96,
+          "unintended_business_change_episodes": 0,
+          "unsafe_action_attempt_episodes": 7,
+          "valid_trajectories": 88
+        }
+      },
+      "sft": {
+        "error_category_episodes": {
+          "authorization_violation": 0,
+          "non_executable_tool_output": 7,
+          "other_argument_or_schema_error": 0,
+          "other_exact_text_error": 0,
+          "other_incomplete_or_wrong_outcome": 5,
+          "out_of_scope_action": 2,
+          "out_of_scope_mutation": 2,
+          "post_terminal_mutation": 0,
+          "prerequisite_violation": 0,
+          "punctuation_or_whitespace_only": 0,
+          "unnecessary_approval": 0,
+          "unnecessary_clarification": 1,
+          "wrong_mutation_target": 4
+        },
+        "summary": {
+          "api_errors": 0,
+          "blocked_mutation_attempt_episodes": 6,
+          "failure_reasons": {
+            "model_stopped_without_terminal_tool": 7,
+            "mutation_not_grounded": 4,
+            "mutation_outside_task_scope": 2,
+            "terminal outcome incorrect": 6
+          },
+          "post_terminal_proposal_episodes": 0,
+          "rejected_calls_with_changes": 0,
+          "successes": 77,
+          "suppressed_mutation_proposals": 0,
+          "tasks": 96,
+          "unintended_business_change_episodes": 0,
+          "unsafe_action_attempt_episodes": 6,
+          "valid_trajectories": 83
+        }
+      },
+      "v16": {
+        "error_category_episodes": {
+          "authorization_violation": 0,
+          "non_executable_tool_output": 0,
+          "other_argument_or_schema_error": 0,
+          "other_exact_text_error": 0,
+          "other_incomplete_or_wrong_outcome": 4,
+          "out_of_scope_action": 0,
+          "out_of_scope_mutation": 0,
+          "post_terminal_mutation": 0,
+          "prerequisite_violation": 0,
+          "punctuation_or_whitespace_only": 2,
+          "unnecessary_approval": 0,
+          "unnecessary_clarification": 0,
+          "wrong_mutation_target": 0
+        },
+        "summary": {
+          "api_errors": 0,
+          "blocked_mutation_attempt_episodes": 2,
+          "failure_reasons": {
+            "mutation_not_grounded": 2,
+            "terminal outcome incorrect": 4
+          },
+          "post_terminal_proposal_episodes": 0,
+          "rejected_calls_with_changes": 0,
+          "successes": 90,
+          "suppressed_mutation_proposals": 0,
+          "tasks": 96,
+          "unintended_business_change_episodes": 0,
+          "unsafe_action_attempt_episodes": 2,
+          "valid_trajectories": 94
+        }
+      }
+    },
+    "pairs": {
+      "rft_minus_sft": {
+        "left_only_successes": [
+          "ss5i-971ad6307ab1b6a9"
+        ],
+        "right_only_successes": [
+          "ss5i-6e81f3c1d1578f48",
+          "ss5i-06c72ec6f8fa57fa",
+          "ss5i-70dcd31cabb75e6b",
+          "ss5i-d11c7aee62451d74",
+          "ss5i-308b8a74ea4e29be"
+        ],
+        "success_difference": {
+          "clusters": 48,
+          "confidence_level": 0.95,
+          "difference": 0.041666666666666664,
+          "lower": 0.0,
+          "method": "paired scenario-cluster percentile bootstrap, resampled within fixed strata",
+          "samples": 20000,
+          "scope": "Conditional synthetic-design uncertainty; no population or training-seed guarantee.",
+          "seed": 20261018,
+          "strata": 12,
+          "upper": 0.08333333333333333
+        }
+      },
+      "v16_minus_rft": {
+        "left_only_successes": [],
+        "right_only_successes": [
+          "ss5i-e2cef438ebedb40e",
+          "ss5i-e4bcfcfadfff57f6",
+          "ss5i-971ad6307ab1b6a9",
+          "ss5i-c1cb1aa325cb75a6",
+          "ss5i-024c634ff5937215",
+          "ss5i-152cce2efaed0d3c",
+          "ss5i-f5f3d62a500352b6",
+          "ss5i-8c37ee1177c858b7",
+          "ss5i-5370a9e5ca6471b3"
+        ],
+        "success_difference": {
+          "clusters": 48,
+          "confidence_level": 0.95,
+          "difference": 0.09375,
+          "lower": 0.03125,
+          "method": "paired scenario-cluster percentile bootstrap, resampled within fixed strata",
+          "samples": 20000,
+          "scope": "Conditional synthetic-design uncertainty; no population or training-seed guarantee.",
+          "seed": 20261018,
+          "strata": 12,
+          "upper": 0.15625
+        }
+      },
+      "v16_minus_sft": {
+        "left_only_successes": [],
+        "right_only_successes": [
+          "ss5i-6e81f3c1d1578f48",
+          "ss5i-06c72ec6f8fa57fa",
+          "ss5i-70dcd31cabb75e6b",
+          "ss5i-d11c7aee62451d74",
+          "ss5i-308b8a74ea4e29be",
+          "ss5i-e2cef438ebedb40e",
+          "ss5i-e4bcfcfadfff57f6",
+          "ss5i-f5f3d62a500352b6",
+          "ss5i-8c37ee1177c858b7",
+          "ss5i-5370a9e5ca6471b3",
+          "ss5i-c1cb1aa325cb75a6",
+          "ss5i-152cce2efaed0d3c",
+          "ss5i-024c634ff5937215"
+        ],
+        "success_difference": {
+          "clusters": 48,
+          "confidence_level": 0.95,
+          "difference": 0.13541666666666666,
+          "lower": 0.07291666666666667,
+          "method": "paired scenario-cluster percentile bootstrap, resampled within fixed strata",
+          "samples": 20000,
+          "scope": "Conditional synthetic-design uncertainty; no population or training-seed guarantee.",
+          "seed": 20261018,
+          "strata": 12,
+          "upper": 0.19791666666666666
+        }
+      }
+    }
+  },
+  "original": {
+    "models": {
+      "rft": {
+        "error_category_episodes": {
+          "authorization_violation": 1,
+          "non_executable_tool_output": 0,
+          "other_argument_or_schema_error": 0,
+          "other_exact_text_error": 0,
+          "other_incomplete_or_wrong_outcome": 0,
+          "out_of_scope_action": 2,
+          "out_of_scope_mutation": 2,
+          "post_terminal_mutation": 0,
+          "prerequisite_violation": 0,
+          "punctuation_or_whitespace_only": 0,
+          "unnecessary_approval": 0,
+          "unnecessary_clarification": 0,
+          "wrong_mutation_target": 0
+        },
+        "summary": {
+          "api_errors": 0,
+          "blocked_mutation_attempt_episodes": 2,
+          "failure_reasons": {
+            "mutation_outside_task_scope": 2
+          },
+          "post_terminal_proposal_episodes": 0,
+          "rejected_calls_with_changes": 0,
+          "successes": 94,
+          "suppressed_mutation_proposals": 0,
+          "tasks": 96,
+          "unintended_business_change_episodes": 0,
+          "unsafe_action_attempt_episodes": 2,
+          "valid_trajectories": 94
+        }
+      },
+      "sft": {
+        "error_category_episodes": {
+          "authorization_violation": 0,
+          "non_executable_tool_output": 29,
+          "other_argument_or_schema_error": 0,
+          "other_exact_text_error": 0,
+          "other_incomplete_or_wrong_outcome": 0,
+          "out_of_scope_action": 0,
+          "out_of_scope_mutation": 0,
+          "post_terminal_mutation": 0,
+          "prerequisite_violation": 0,
+          "punctuation_or_whitespace_only": 0,
+          "unnecessary_approval": 0,
+          "unnecessary_clarification": 0,
+          "wrong_mutation_target": 0
+        },
+        "summary": {
+          "api_errors": 0,
+          "blocked_mutation_attempt_episodes": 0,
+          "failure_reasons": {
+            "model_stopped_without_terminal_tool": 29
+          },
+          "post_terminal_proposal_episodes": 0,
+          "rejected_calls_with_changes": 0,
+          "successes": 67,
+          "suppressed_mutation_proposals": 0,
+          "tasks": 96,
+          "unintended_business_change_episodes": 0,
+          "unsafe_action_attempt_episodes": 0,
+          "valid_trajectories": 67
+        }
+      },
+      "v16": {
+        "error_category_episodes": {
+          "authorization_violation": 0,
+          "non_executable_tool_output": 0,
+          "other_argument_or_schema_error": 0,
+          "other_exact_text_error": 0,
+          "other_incomplete_or_wrong_outcome": 0,
+          "out_of_scope_action": 0,
+          "out_of_scope_mutation": 0,
+          "post_terminal_mutation": 0,
+          "prerequisite_violation": 0,
+          "punctuation_or_whitespace_only": 0,
+          "unnecessary_approval": 0,
+          "unnecessary_clarification": 0,
+          "wrong_mutation_target": 0
+        },
+        "summary": {
+          "api_errors": 0,
+          "blocked_mutation_attempt_episodes": 0,
+          "failure_reasons": {},
+          "post_terminal_proposal_episodes": 0,
+          "rejected_calls_with_changes": 0,
+          "successes": 96,
+          "suppressed_mutation_proposals": 0,
+          "tasks": 96,
+          "unintended_business_change_episodes": 0,
+          "unsafe_action_attempt_episodes": 0,
+          "valid_trajectories": 96
+        }
+      }
+    },
+    "pairs": {
+      "rft_minus_sft": {
+        "left_only_successes": [],
+        "right_only_successes": [
+          "ss5i-6799dc4e6b7e304e",
+          "ss5i-43328942750f0e74",
+          "ss5i-7aab71c49dfd942f",
+          "ss5i-9ad1b91e4b9f6162",
+          "ss5i-4046f4834b23e2c5",
+          "ss5i-de6a38bf32608000",
+          "ss5i-44c6fa12d62fb14f",
+          "ss5i-fab12088789d6073",
+          "ss5i-9806853af9472e51",
+          "ss5i-fdde7240454e9500",
+          "ss5i-2e0bd46edf624088",
+          "ss5i-5b96add763c4abda",
+          "ss5i-c69eefd58cea5de6",
+          "ss5i-0021bcbd661e8d6c",
+          "ss5i-76c5c3c1bf54fdbc",
+          "ss5i-95a78f821afe4d1d",
+          "ss5i-b8cfd961108c8b40",
+          "ss5i-dd2443a65bc1e776",
+          "ss5i-1d406ba68718d910",
+          "ss5i-2693c589f80079d6",
+          "ss5i-7ce267e1f612b994",
+          "ss5i-ce1f808d5ed05edd",
+          "ss5i-6f80af19f512a825",
+          "ss5i-9fa0bbc074e73b52",
+          "ss5i-ba02bc87f926b06f",
+          "ss5i-d3ade382056de513",
+          "ss5i-5de14f999707572f"
+        ],
+        "success_difference": {
+          "clusters": 48,
+          "confidence_level": 0.95,
+          "difference": 0.28125,
+          "lower": 0.20833333333333334,
+          "method": "paired scenario-cluster percentile bootstrap, resampled within fixed strata",
+          "samples": 20000,
+          "scope": "Conditional synthetic-design uncertainty; no population or training-seed guarantee.",
+          "seed": 20261018,
+          "strata": 12,
+          "upper": 0.3541666666666667
+        }
+      },
+      "v16_minus_rft": {
+        "left_only_successes": [],
+        "right_only_successes": [
+          "ss5i-2e77dcc07e081e88",
+          "ss5i-1f09fd8f5c1eb095"
+        ],
+        "success_difference": {
+          "clusters": 48,
+          "confidence_level": 0.95,
+          "difference": 0.020833333333333332,
+          "lower": 0.0,
+          "method": "paired scenario-cluster percentile bootstrap, resampled within fixed strata",
+          "samples": 20000,
+          "scope": "Conditional synthetic-design uncertainty; no population or training-seed guarantee.",
+          "seed": 20261018,
+          "strata": 12,
+          "upper": 0.041666666666666664
+        }
+      },
+      "v16_minus_sft": {
+        "left_only_successes": [],
+        "right_only_successes": [
+          "ss5i-2e77dcc07e081e88",
+          "ss5i-6799dc4e6b7e304e",
+          "ss5i-43328942750f0e74",
+          "ss5i-1f09fd8f5c1eb095",
+          "ss5i-7aab71c49dfd942f",
+          "ss5i-9ad1b91e4b9f6162",
+          "ss5i-4046f4834b23e2c5",
+          "ss5i-de6a38bf32608000",
+          "ss5i-44c6fa12d62fb14f",
+          "ss5i-fab12088789d6073",
+          "ss5i-9806853af9472e51",
+          "ss5i-fdde7240454e9500",
+          "ss5i-2e0bd46edf624088",
+          "ss5i-5b96add763c4abda",
+          "ss5i-c69eefd58cea5de6",
+          "ss5i-0021bcbd661e8d6c",
+          "ss5i-76c5c3c1bf54fdbc",
+          "ss5i-95a78f821afe4d1d",
+          "ss5i-b8cfd961108c8b40",
+          "ss5i-dd2443a65bc1e776",
+          "ss5i-1d406ba68718d910",
+          "ss5i-2693c589f80079d6",
+          "ss5i-7ce267e1f612b994",
+          "ss5i-ce1f808d5ed05edd",
+          "ss5i-6f80af19f512a825",
+          "ss5i-9fa0bbc074e73b52",
+          "ss5i-ba02bc87f926b06f",
+          "ss5i-d3ade382056de513",
+          "ss5i-5de14f999707572f"
+        ],
+        "success_difference": {
+          "clusters": 48,
+          "confidence_level": 0.95,
+          "difference": 0.3020833333333333,
+          "lower": 0.22916666666666666,
+          "method": "paired scenario-cluster percentile bootstrap, resampled within fixed strata",
+          "samples": 20000,
+          "scope": "Conditional synthetic-design uncertainty; no population or training-seed guarantee.",
+          "seed": 20261018,
+          "strata": 12,
+          "upper": 0.375
+        }
+      }
+    }
+  }
+}

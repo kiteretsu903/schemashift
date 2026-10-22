@@ -1,0 +1,531 @@
+{
+  "case_metadata": {
+    "ss5i-0021bcbd661e8d6c": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-ice-rink-locker",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-027126c8f28ddf33": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-radio-caption",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-07db7947b32741ea": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-costume-rental",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-13ae983339ffd67b": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-costume-rental",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-1730e4db1b98033f": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-textile-archive",
+      "stratum": "missing_impact"
+    },
+    "ss5i-17dce35d96983181": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-loom-dye",
+      "stratum": "basic_create"
+    },
+    "ss5i-1a5feddbd20c0390": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-lighthouse-tours",
+      "stratum": "missing_impact"
+    },
+    "ss5i-1d406ba68718d910": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-marionette-workshop",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-1de7d35d52875ec5": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-museum-crate",
+      "stratum": "entitled_create"
+    },
+    "ss5i-1e19de550636f66c": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-bicycle-ferry",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-1e2b34b3d01e6455": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-music-box-guild",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-1f09fd8f5c1eb095": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-mobile-planetarium",
+      "stratum": "basic_create"
+    },
+    "ss5i-1f5b428589ac99d7": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-marionette-workshop",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-213a96c413c0e14d": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-alpine-meals",
+      "stratum": "entitled_create"
+    },
+    "ss5i-21ba306393528c58": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-river-cleanup",
+      "stratum": "missing_impact"
+    },
+    "ss5i-2212eff644280d32": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-bookmobile-route",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-225dcc8eed781ab2": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-pottery-market",
+      "stratum": "read_only"
+    },
+    "ss5i-24103284932d83d5": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-astronomy-camp",
+      "stratum": "read_only"
+    },
+    "ss5i-2693c589f80079d6": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-observatory-night",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-2b254c040b7027fd": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-choir-library",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-2e0bd46edf624088": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-radio-caption",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-2e77dcc07e081e88": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-harbor-loan",
+      "stratum": "basic_create"
+    },
+    "ss5i-309aaca45d0f2b94": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-choir-library",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-349d5adad6b6effa": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-heritage-tram",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-353fa78574134829": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-pottery-market",
+      "stratum": "read_only"
+    },
+    "ss5i-388adf0d86cc1b9d": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-beekeeping-supplies",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-3d7c88061de9c8fc": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-chess-library",
+      "stratum": "missing_impact"
+    },
+    "ss5i-4046f4834b23e2c5": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-orchard-frost",
+      "stratum": "entitled_create"
+    },
+    "ss5i-40f1ff35f07af6f4": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-map-restoration",
+      "stratum": "distracting_data"
+    },
+    "ss5i-41ab311761512781": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-cider-press",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-43328942750f0e74": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-seed-bank",
+      "stratum": "basic_create"
+    },
+    "ss5i-440f5e81ddcfcdd7": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-community-bakery",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-44c6fa12d62fb14f": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-alpine-meals",
+      "stratum": "entitled_create"
+    },
+    "ss5i-454cd029cf9a7a49": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-bicycle-ferry",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-47f48b7607566b97": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-harbor-loan",
+      "stratum": "basic_create"
+    },
+    "ss5i-499ca530e9020e53": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-lighthouse-tours",
+      "stratum": "missing_impact"
+    },
+    "ss5i-50c3e8de6e39b9fc": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-museum-crate",
+      "stratum": "entitled_create"
+    },
+    "ss5i-52a04c931e49b46a": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-cider-press",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-55ce701286dc9ec6": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-makerspace-laser",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-57f4d2d66b849eff": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-fern-conservatory",
+      "stratum": "read_only"
+    },
+    "ss5i-5ab808898a78a970": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-kayak-workshop",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-5b96add763c4abda": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-ceramics-kiln",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-5d55bfa0b60b74bc": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-reed-harvest",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-5de14f999707572f": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-cave-survey",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-62be282fc76c5c5a": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-orchid-exhibition",
+      "stratum": "distracting_data"
+    },
+    "ss5i-63f6f1ec7051c9a0": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-mobile-planetarium",
+      "stratum": "basic_create"
+    },
+    "ss5i-6799dc4e6b7e304e": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-loom-dye",
+      "stratum": "basic_create"
+    },
+    "ss5i-6f80af19f512a825": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-sailing-regatta",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-70299a37c6dcbfe5": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-maritime-library",
+      "stratum": "distracting_data"
+    },
+    "ss5i-7616d6982fbd25ec": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-kayak-workshop",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-76c5c3c1bf54fdbc": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-ceramics-kiln",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-76ff44b7116dc9ab": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-music-box-guild",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-7aab71c49dfd942f": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-seed-bank",
+      "stratum": "basic_create"
+    },
+    "ss5i-7ac211eaf110ea51": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-maritime-library",
+      "stratum": "distracting_data"
+    },
+    "ss5i-7ce267e1f612b994": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-compost-collection",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-7f1471a9c0821e0a": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-printmaking-residency",
+      "stratum": "read_only"
+    },
+    "ss5i-89c3595d31f86821": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-bell-foundry",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-90ea735ab5487414": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-map-restoration",
+      "stratum": "distracting_data"
+    },
+    "ss5i-91df494704526d90": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-fossil-archive",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-95a78f821afe4d1d": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-observatory-night",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-9806853af9472e51": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-wetland-acoustics",
+      "stratum": "absent_entitlement"
+    },
+    "ss5i-9ad1b91e4b9f6162": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-orchard-frost",
+      "stratum": "entitled_create"
+    },
+    "ss5i-9b01ef464a5e6e65": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-wildflower-nursery",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-9e36f0e0e1e9b17d": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-beekeeping-supplies",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-9f62e3671e3dc0c4": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-fern-conservatory",
+      "stratum": "read_only"
+    },
+    "ss5i-9fa0bbc074e73b52": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-sailing-regatta",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-ad25fde431d879af": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-wool-exchange",
+      "stratum": "distracting_data"
+    },
+    "ss5i-b0f8d2b0a8e66091": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-film-preservation",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-b3d3a49469922167": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-textile-archive",
+      "stratum": "missing_impact"
+    },
+    "ss5i-b8b07edcbe2183dd": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-astronomy-camp",
+      "stratum": "read_only"
+    },
+    "ss5i-b8cfd961108c8b40": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-grain-auction",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-ba02bc87f926b06f": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-orchid-exhibition",
+      "stratum": "distracting_data"
+    },
+    "ss5i-bf609bab1207df46": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-heritage-tram",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-c1ab05b5a96dacb5": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-cave-survey",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-c69eefd58cea5de6": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-ice-rink-locker",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-c7c4bdd4bc10b85f": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-printmaking-residency",
+      "stratum": "read_only"
+    },
+    "ss5i-ce1f808d5ed05edd": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-compost-collection",
+      "stratum": "authorized_contact"
+    },
+    "ss5i-d3ade382056de513": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-bell-foundry",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-d4ccd9c3c87328a5": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-reed-harvest",
+      "stratum": "conflicting_request"
+    },
+    "ss5i-d513cab9e54a05a9": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-wool-exchange",
+      "stratum": "distracting_data"
+    },
+    "ss5i-d795bbe10a4eae3a": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-fossil-archive",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-d88993cf0f695806": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-chess-library",
+      "stratum": "missing_impact"
+    },
+    "ss5i-dc90ec3786689e9d": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-aquarium-volunteers",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-dd2443a65bc1e776": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-grain-auction",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-dddaef8e9a4b4388": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-community-bakery",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-de6a38bf32608000": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-canal-lock",
+      "stratum": "entitled_create"
+    },
+    "ss5i-e0b050751a663840": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-reuse-cafe",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-e4bdd3249b5bd627": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-reuse-cafe",
+      "stratum": "missing_authorization"
+    },
+    "ss5i-f11684bfa1d1bb15": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-film-preservation",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-f6d6669c4e5357e4": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-bookmobile-route",
+      "stratum": "resolve_with_comment"
+    },
+    "ss5i-f8a27ae5c7019cf9": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-makerspace-laser",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-f8f00583db7daad6": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-aquarium-volunteers",
+      "stratum": "forged_authorization"
+    },
+    "ss5i-f9928c3b45f19416": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-river-cleanup",
+      "stratum": "missing_impact"
+    },
+    "ss5i-fab12088789d6073": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-canal-lock",
+      "stratum": "entitled_create"
+    },
+    "ss5i-fada0a2674001e2d": {
+      "profile": "atlas",
+      "scenario_id": "fh-v5-trained-wildflower-nursery",
+      "stratum": "unsupported_request"
+    },
+    "ss5i-fdde7240454e9500": {
+      "profile": "cedar",
+      "scenario_id": "fh-v5-trained-wetland-acoustics",
+      "stratum": "absent_entitlement"
+    }
+  },
+  "episodes": 96,
+  "independent_scenarios": "evaluation/fixtures/original.json",
+  "independent_scenarios_sha256": "5b27c9630ffbeecd27cb797d39269c3b0831a419b042d33b5ecc9e85a5d0fee0",
+  "inference": {
+    "concurrency": 8,
+    "max_attempts": 10,
+    "max_tokens": 512,
+    "temperature": 0
+  },
+  "interpretation": "Public derivative of frozen V17 protocol; checkpoint aliases normalized.",
+  "model_endpoints": {
+    "rft": "recorded://rft",
+    "sft": "recorded://sft",
+    "v16": "recorded://v16"
+  },
+  "models": {
+    "rft": "rft",
+    "sft": "sft",
+    "v16": "v16"
+  },
+  "source_sha256": {
+    "src/schemashift/__init__.py": "7521a004e37345d63cafc3efc90bbb67f0afe9e3de321dc0f93d32840ad61b3d",
+    "src/schemashift/__main__.py": "099393d494d3d2a623581a3844eb65935734c9d81c87e23058ef09e591c06912",
+    "src/schemashift/agent.py": "5fc698883d64b7af32325a8b816e36949c2752b5fa1f675851be3c8bca1770d3",
+    "src/schemashift/agent_v5.py": "dd0703d5571e18b92fd9d05a7210c90a2e2fc27acb0f08415ef95c9bf23d60c6",
+    "src/schemashift/analysis_fresh_v5.py": "8aad952e4fe91694514cb8a29002ef1a9d19a6b4807b5b03d2fbf96c8365c079",
+    "src/schemashift/catalog.py": "1f7743585b4ce3dda247bb19057190b79423dbfa5e98596a7a6885bcada19117",
+    "src/schemashift/classification.py": "df4e7558002ffb872b8d098cd97071c025f306523bb9ce368dc67bf8e600b0b7",
+    "src/schemashift/cli.py": "7ac4fc8a96d8e2505b64d8db6f7d5df1351006db71d24b56dddc80b3e7782a9f",
+    "src/schemashift/dataset_v5.py": "38b108f5c5ad07e3cdb6feedd3af8adf952c885791dbd0377b94ecc0698aa711",
+    "src/schemashift/environment_v5.py": "ad5f2c2c775e1ec751c9869c1a4004a07e91a3e1951849f292051ba55b7d55fa",
+    "src/schemashift/fireworks.py": "9a06b05e7edc00c671d4f8dfef3a3682756147f1042dda93edd1233d25901213",
+    "src/schemashift/generator.py": "4174fccd06700c592e6450f55c5c1dec0addb3e28746b1be81c4ed9cebe6c80f",
+    "src/schemashift/independent_v5.py": "dce790aed86c403e9124f7e72607c94ae0d2cab96fc158ba320e4ee00e44c183",
+    "src/schemashift/leakage.py": "dd2453fd4bb3ca5fd3f53c89ad035cd95ebfbce61ac8020f341d2e3cfb681b04",
+    "src/schemashift/metrics.py": "c9536e422300279e712028442ea01ed0afa6d46e69b02f9bef3341cd7c7e33cd",
+    "src/schemashift/models.py": "f1782889f8b200e56b5a14b0212bfe6eda1dfe286c2f48196587ac98b938626f",
+    "src/schemashift/prompts.py": "a22e496859efb6ecd294b86b0034f8be05f764f307ef48df9c6ff59b8d696cb7",
+    "src/schemashift/replay.py": "072a037b2581ff2c69dabced8bcd53a7bff737c1c90ab38c231acd5727ed5dd1",
+    "src/schemashift/rewards.py": "7b47b4767989f18a5d348ab99bc68a084e2f667fe7211367bcf06b40d795bc31",
+    "src/schemashift/rewards_v5.py": "643191e5b72c797f8429b42cf0ad2bd448f7ebb9894beb48df54a4f6eafc6680",
+    "src/schemashift/safety_v4.py": "39eed5958c05e2240ff96194c30943f1d9634d52301618318270f1373d099760",
+    "src/schemashift/schema_v5.py": "1fa94eecb51d452dd5e6b224bb2669db9addb8bd20600b21a9736a21f9a6312a",
+    "src/schemashift/simulator.py": "7a2954394d4c8b206ddf0cf732a93f0e40c5cb7cfd096902b37d2941f1d2ff2a"
+  },
+  "system_prompt_sha256": "95294653ae2af75f34cb357981ef3bf50c9c3326a12b03354a71759cfa7b20ad",
+  "version": "schemashift-public-replay-1"
+}

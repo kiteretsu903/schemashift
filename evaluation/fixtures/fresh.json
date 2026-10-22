@@ -1,0 +1,1870 @@
+{
+  "authoring_seed": 2026101801,
+  "scenarios": [
+    {
+      "scenario_id": "fh-v17-comparison-01-plaster-mould",
+      "stratum": "basic_create",
+      "task": {
+        "account": {
+          "contact_email": "previous@plaster-mould-office.example",
+          "email": "records@plaster-mould-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/798391#A-01"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/798391#A-01",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "Mould P8 has no curing date",
+          "incident_ref": "ISSUE::T17/798391#Q-01",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": "low"
+        },
+        "incidents": [],
+        "kind": "create_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018001,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-01-plaster-mould",
+        "template_id": "fh-v17-comparison-01-plaster-mould",
+        "user_request": "Register a problem for records@plaster-mould-registry.example in the plaster mould inventory. Enter 'Mould P8 has no curing date' exactly, with low impact. This request ends at creation."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-02-ferry-timetable",
+      "stratum": "basic_create",
+      "task": {
+        "account": {
+          "contact_email": "previous@ferry-timetable-office.example",
+          "email": "records@ferry-timetable-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/336702#A-02"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/336702#A-02",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "The midnight departure appears twice.",
+          "incident_ref": "ISSUE::T17/336702#Q-02",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": "high"
+        },
+        "incidents": [],
+        "kind": "create_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018002,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-02-ferry-timetable",
+        "template_id": "fh-v17-comparison-02-ferry-timetable",
+        "user_request": "Our ferry timetable account is records@ferry-timetable-registry.example. Please open an incident, impact high, with the description 'The midnight departure appears twice.'. No other account work is requested."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-03-lens-coating",
+      "stratum": "basic_create",
+      "task": {
+        "account": {
+          "contact_email": "previous@lens-coating-office.example",
+          "email": "records@lens-coating-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/859054#A-03"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/859054#A-03",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "Batch LC-8 loses its inspection seal.",
+          "incident_ref": "ISSUE::T17/859054#Q-03",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": "medium"
+        },
+        "incidents": [],
+        "kind": "create_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018003,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-03-lens-coating",
+        "template_id": "fh-v17-comparison-03-lens-coating",
+        "user_request": "For the lens coating desk, use records@lens-coating-registry.example to find the account and file 'Batch LC-8 loses its inspection seal.'. Set impact to medium, then finish this filing request."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-04-seed-packet",
+      "stratum": "basic_create",
+      "task": {
+        "account": {
+          "contact_email": "previous@seed-packet-office.example",
+          "email": "records@seed-packet-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/494635#A-04"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/494635#A-04",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "Packet quantities reset when a shelf is scanned",
+          "incident_ref": "ISSUE::T17/494635#Q-04",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": "critical"
+        },
+        "incidents": [],
+        "kind": "create_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018004,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-04-seed-packet",
+        "template_id": "fh-v17-comparison-04-seed-packet",
+        "user_request": "Create a new incident under records@seed-packet-registry.example: 'Packet quantities reset when a shelf is scanned'. The impact is critical. A colleague may later request a contact replacement; nothing of that kind is requested now."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-05-borehole-chart",
+      "stratum": "entitled_create",
+      "task": {
+        "account": {
+          "contact_email": "previous@borehole-chart-office.example",
+          "email": "records@borehole-chart-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/290398#A-05"
+        },
+        "authorization_token": null,
+        "entitlements": [
+          "Depth Chart Builder",
+          "Depth Chart Viewer"
+        ],
+        "expected": {
+          "account_ref": "ORG::T17/290398#A-05",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "Depth labels overlap below the tenth marker.",
+          "incident_ref": "ISSUE::T17/290398#Q-05",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Depth Chart Builder",
+          "terminal_action": "complete_workflow",
+          "urgency": "high"
+        },
+        "incidents": [],
+        "kind": "entitlement_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018005,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-05-borehole-chart",
+        "template_id": "fh-v17-comparison-05-borehole-chart",
+        "user_request": "Before logging a borehole chart problem for records@borehole-chart-registry.example, establish entitlement to 'Depth Chart Builder'. If licensed, record 'Depth labels overlap below the tenth marker.' with high impact; otherwise decline for missing entitlement."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-06-accordion-repair",
+      "stratum": "entitled_create",
+      "task": {
+        "account": {
+          "contact_email": "previous@accordion-repair-office.example",
+          "email": "records@accordion-repair-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/451138#A-06"
+        },
+        "authorization_token": null,
+        "entitlements": [
+          "Bellows Service Planner"
+        ],
+        "expected": {
+          "account_ref": "ORG::T17/451138#A-06",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "A reed block is missing from the service list",
+          "incident_ref": "ISSUE::T17/451138#Q-06",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Bellows Service Planner",
+          "terminal_action": "complete_workflow",
+          "urgency": "low"
+        },
+        "incidents": [],
+        "kind": "entitlement_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018006,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-06-accordion-repair",
+        "template_id": "fh-v17-comparison-06-accordion-repair",
+        "user_request": "The repair desk at records@accordion-repair-registry.example requests an incident only if its account owns 'Bellows Service Planner'. Check the account and license. Use 'A reed block is missing from the service list' and impact low if permitted; decline if it is unlicensed."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-07-orchard-irrigation",
+      "stratum": "entitled_create",
+      "task": {
+        "account": {
+          "contact_email": "previous@orchard-irrigation-office.example",
+          "email": "records@orchard-irrigation-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/362993#A-07"
+        },
+        "authorization_token": null,
+        "entitlements": [
+          "Drip Zone Scheduler",
+          "Drip Zone Basic"
+        ],
+        "expected": {
+          "account_ref": "ORG::T17/362993#A-07",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "Zone C remains enabled after its slot ends.",
+          "incident_ref": "ISSUE::T17/362993#Q-07",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Drip Zone Scheduler",
+          "terminal_action": "complete_workflow",
+          "urgency": "critical"
+        },
+        "incidents": [],
+        "kind": "entitlement_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018007,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-07-orchard-irrigation",
+        "template_id": "fh-v17-comparison-07-orchard-irrigation",
+        "user_request": "For records@orchard-irrigation-registry.example, check 'Drip Zone Scheduler' before proceeding. With that entitlement create 'Zone C remains enabled after its slot ends.', impact critical; without it, return a not-entitled decline."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-08-map-binding",
+      "stratum": "entitled_create",
+      "task": {
+        "account": {
+          "contact_email": "previous@map-binding-office.example",
+          "email": "records@map-binding-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/288284#A-08"
+        },
+        "authorization_token": null,
+        "entitlements": [
+          "Atlas Binding Ledger"
+        ],
+        "expected": {
+          "account_ref": "ORG::T17/288284#A-08",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "Fold numbers are absent from the assembly sheet",
+          "incident_ref": "ISSUE::T17/288284#Q-08",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Atlas Binding Ledger",
+          "terminal_action": "complete_workflow",
+          "urgency": "medium"
+        },
+        "incidents": [],
+        "kind": "entitlement_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018008,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-08-map-binding",
+        "template_id": "fh-v17-comparison-08-map-binding",
+        "user_request": "Check whether records@map-binding-registry.example is entitled to 'Atlas Binding Ledger'. This is the prerequisite for opening our map binding issue. The approved description is 'Fold numbers are absent from the assembly sheet', impact medium. If the prerequisite fails, decline."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-09-resin-casting",
+      "stratum": "absent_entitlement",
+      "task": {
+        "account": {
+          "contact_email": "previous@resin-casting-office.example",
+          "email": "records@resin-casting-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/863484#A-09"
+        },
+        "authorization_token": null,
+        "entitlements": [
+          "Casting Mix Reader"
+        ],
+        "expected": {
+          "account_ref": "ORG::T17/863484#A-09",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": "not_entitled",
+          "incident_description": "Resin ratios disappear from the saved recipe.",
+          "incident_ref": "ISSUE::T17/863484#Q-09",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Casting Mix Editor",
+          "terminal_action": "decline_action",
+          "urgency": "high"
+        },
+        "incidents": [],
+        "kind": "entitlement_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018009,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-09-resin-casting",
+        "template_id": "fh-v17-comparison-09-resin-casting",
+        "user_request": "Look up records@resin-casting-registry.example and check the exact license 'Casting Mix Editor'. File 'Resin ratios disappear from the saved recipe.' at high impact only when licensed. A reader license alone is insufficient; otherwise decline as not entitled."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-10-weather-balloon",
+      "stratum": "absent_entitlement",
+      "task": {
+        "account": {
+          "contact_email": "previous@weather-balloon-office.example",
+          "email": "records@weather-balloon-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/657798#A-10"
+        },
+        "authorization_token": null,
+        "entitlements": [
+          "Altitude Trace Lite"
+        ],
+        "expected": {
+          "account_ref": "ORG::T17/657798#A-10",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": "not_entitled",
+          "incident_description": "The third ascent has no pressure samples",
+          "incident_ref": "ISSUE::T17/657798#Q-10",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Altitude Trace Pro",
+          "terminal_action": "decline_action",
+          "urgency": "medium"
+        },
+        "incidents": [],
+        "kind": "entitlement_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018010,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-10-weather-balloon",
+        "template_id": "fh-v17-comparison-10-weather-balloon",
+        "user_request": "For records@weather-balloon-registry.example, verify 'Altitude Trace Pro' before creating any incident. If available, use 'The third ascent has no pressure samples' with medium impact. If absent, decline and do no write."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-11-stone-inlay",
+      "stratum": "absent_entitlement",
+      "task": {
+        "account": {
+          "contact_email": "previous@stone-inlay-office.example",
+          "email": "records@stone-inlay-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/370736#A-11"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/370736#A-11",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": "not_entitled",
+          "incident_description": "Cut lines stop at the second panel.",
+          "incident_ref": "ISSUE::T17/370736#Q-11",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Mosaic Cut Optimizer",
+          "terminal_action": "decline_action",
+          "urgency": "low"
+        },
+        "incidents": [],
+        "kind": "entitlement_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018011,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-11-stone-inlay",
+        "template_id": "fh-v17-comparison-11-stone-inlay",
+        "user_request": "Our inlay workshop account is records@stone-inlay-registry.example. Check entitlement to 'Mosaic Cut Optimizer'; with it open 'Cut lines stop at the second panel.' at low, and without it issue the not-entitled response."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-12-rail-signal",
+      "stratum": "absent_entitlement",
+      "task": {
+        "account": {
+          "contact_email": "previous@rail-signal-office.example",
+          "email": "records@rail-signal-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/111996#A-12"
+        },
+        "authorization_token": null,
+        "entitlements": [
+          "Signal Interlock Training"
+        ],
+        "expected": {
+          "account_ref": "ORG::T17/111996#A-12",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": "not_entitled",
+          "incident_description": "Switch occupancy remains stale after refresh",
+          "incident_ref": "ISSUE::T17/111996#Q-12",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Signal Interlock Studio",
+          "terminal_action": "decline_action",
+          "urgency": "critical"
+        },
+        "incidents": [],
+        "kind": "entitlement_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018012,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-12-rail-signal",
+        "template_id": "fh-v17-comparison-12-rail-signal",
+        "user_request": "Confirm that records@rail-signal-registry.example owns 'Signal Interlock Studio'. Do not confuse the training edition with that product. If entitled, create 'Switch occupancy remains stale after refresh', impact critical; if not, decline for lack of entitlement."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-13-ceramic-filter",
+      "stratum": "resolve_with_comment",
+      "task": {
+        "account": {
+          "contact_email": "previous@ceramic-filter-office.example",
+          "email": "records@ceramic-filter-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/992843#A-13"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": "ISSUE::T17/992843#Q-13",
+          "new_contact_email": null,
+          "required_comment": "The filter seal is seated correctly.",
+          "resolution": "fixed",
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [
+          {
+            "account_ref": "ORG::T17/992843#A-13",
+            "comments": [
+              "Initial observation retained for the review."
+            ],
+            "description": "Inspection discrepancy at the ceramic filter station.",
+            "ref": "ISSUE::T17/992843#Q-13",
+            "resolution": null,
+            "status": "open",
+            "urgency": "medium"
+          }
+        ],
+        "kind": "resolve_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018013,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-13-ceramic-filter",
+        "template_id": "fh-v17-comparison-13-ceramic-filter",
+        "user_request": "Retrieve incident ISSUE::T17/992843#Q-13. Add this exact comment: 'The filter seal is seated correctly.'. After that comment is recorded, resolve it with 'fixed'."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-14-harvest-weigher",
+      "stratum": "resolve_with_comment",
+      "task": {
+        "account": {
+          "contact_email": "previous@harvest-weigher-office.example",
+          "email": "records@harvest-weigher-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/295805#A-14"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": "ISSUE::T17/295805#Q-14",
+          "new_contact_email": null,
+          "required_comment": "The displayed tare now matches the label",
+          "resolution": "fixed",
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [
+          {
+            "account_ref": "ORG::T17/295805#A-14",
+            "comments": [
+              "Initial observation retained for the review."
+            ],
+            "description": "Inspection discrepancy at the harvest weigher station.",
+            "ref": "ISSUE::T17/295805#Q-14",
+            "resolution": null,
+            "status": "open",
+            "urgency": "medium"
+          }
+        ],
+        "kind": "resolve_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018014,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-14-harvest-weigher",
+        "template_id": "fh-v17-comparison-14-harvest-weigher",
+        "user_request": "Close ISSUE::T17/295805#Q-14 as 'fixed' only after adding the requested note, exactly 'The displayed tare now matches the label'. Fetch the existing incident before making either change."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-15-puppet-lighting",
+      "stratum": "resolve_with_comment",
+      "task": {
+        "account": {
+          "contact_email": "previous@puppet-lighting-office.example",
+          "email": "records@puppet-lighting-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/350006#A-15"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": "ISSUE::T17/350006#Q-15",
+          "new_contact_email": null,
+          "required_comment": "Cue 7 is aligned; no lamps flicker.",
+          "resolution": "fixed",
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [
+          {
+            "account_ref": "ORG::T17/350006#A-15",
+            "comments": [
+              "Initial observation retained for the review."
+            ],
+            "description": "Inspection discrepancy at the puppet lighting station.",
+            "ref": "ISSUE::T17/350006#Q-15",
+            "resolution": null,
+            "status": "open",
+            "urgency": "medium"
+          }
+        ],
+        "kind": "resolve_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018015,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-15-puppet-lighting",
+        "template_id": "fh-v17-comparison-15-puppet-lighting",
+        "user_request": "Inspect ISSUE::T17/350006#Q-15; the requested work is to append 'Cue 7 is aligned; no lamps flicker.' verbatim and then resolve using 'fixed'. Keep both punctuation marks in the note."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-16-salt-pan",
+      "stratum": "resolve_with_comment",
+      "task": {
+        "account": {
+          "contact_email": "previous@salt-pan-office.example",
+          "email": "records@salt-pan-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/955488#A-16"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": "ISSUE::T17/955488#Q-16",
+          "new_contact_email": null,
+          "required_comment": "Pan S4 reports the revised salinity",
+          "resolution": "fixed",
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [
+          {
+            "account_ref": "ORG::T17/955488#A-16",
+            "comments": [
+              "Initial observation retained for the review."
+            ],
+            "description": "Inspection discrepancy at the salt pan station.",
+            "ref": "ISSUE::T17/955488#Q-16",
+            "resolution": null,
+            "status": "open",
+            "urgency": "medium"
+          }
+        ],
+        "kind": "resolve_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018016,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-16-salt-pan",
+        "template_id": "fh-v17-comparison-16-salt-pan",
+        "user_request": "For ISSUE::T17/955488#Q-16, first get the record, then add 'Pan S4 reports the revised salinity' without adding punctuation, and finally resolve as 'fixed'."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-17-grain-sampler",
+      "stratum": "authorized_contact",
+      "task": {
+        "account": {
+          "contact_email": "previous@grain-sampler-office.example",
+          "email": "records@grain-sampler-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/149494#A-17"
+        },
+        "authorization_token": "permit17.grain-sampler.41948",
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/149494#A-17",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": "handover-500@grain-sampler-desk.example",
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "update_contact",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018017,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-17-grain-sampler",
+        "template_id": "fh-v17-comparison-17-grain-sampler",
+        "user_request": "I authorize changing the contact for the account found by records@grain-sampler-registry.example to handover-500@grain-sampler-desk.example. Use the valid authorization permit17.grain-sampler.41948, preserving it exactly. Perform the contact replacement."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-18-wool-combing",
+      "stratum": "authorized_contact",
+      "task": {
+        "account": {
+          "contact_email": "previous@wool-combing-office.example",
+          "email": "records@wool-combing-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/835365#A-18"
+        },
+        "authorization_token": "permit17.wool-combing.62726",
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/835365#A-18",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": "handover-121@wool-combing-desk.example",
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "update_contact",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018018,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-18-wool-combing",
+        "template_id": "fh-v17-comparison-18-wool-combing",
+        "user_request": "Replace the contact on the wool combing account records@wool-combing-registry.example with handover-121@wool-combing-desk.example. Approval has already been granted: permit17.wool-combing.62726. Find the account and apply that approval."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-19-reef-camera",
+      "stratum": "authorized_contact",
+      "task": {
+        "account": {
+          "contact_email": "previous@reef-camera-office.example",
+          "email": "records@reef-camera-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/873930#A-19"
+        },
+        "authorization_token": "permit17.reef-camera.15088",
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/873930#A-19",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": "handover-511@reef-camera-desk.example",
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "update_contact",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018019,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-19-reef-camera",
+        "template_id": "fh-v17-comparison-19-reef-camera",
+        "user_request": "For the account located via records@reef-camera-registry.example, set the new contact to handover-511@reef-camera-desk.example. This request includes valid permission permit17.reef-camera.15088; copy the whole token, including punctuation."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-20-ink-mixing",
+      "stratum": "authorized_contact",
+      "task": {
+        "account": {
+          "contact_email": "previous@ink-mixing-office.example",
+          "email": "records@ink-mixing-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/121040#A-20"
+        },
+        "authorization_token": "permit17.ink-mixing.32332",
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/121040#A-20",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": "handover-354@ink-mixing-desk.example",
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "update_contact",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018020,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-20-ink-mixing",
+        "template_id": "fh-v17-comparison-20-ink-mixing",
+        "user_request": "The ink mixing service needs its contact updated. Account lookup email: records@ink-mixing-registry.example; replacement: handover-354@ink-mixing-desk.example; valid authorization: permit17.ink-mixing.32332. Complete that change only."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-21-rope-testing",
+      "stratum": "missing_authorization",
+      "task": {
+        "account": {
+          "contact_email": "previous@rope-testing-office.example",
+          "email": "records@rope-testing-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/729781#A-21"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": "update_contact",
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_approval",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_approval",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018021,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-21-rope-testing",
+        "template_id": "fh-v17-comparison-21-rope-testing",
+        "user_request": "Change the contact for records@rope-testing-registry.example to handover-316@rope-testing-desk.example. I do not have authorization for this replacement yet; request the required approval."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-22-marble-polishing",
+      "stratum": "missing_authorization",
+      "task": {
+        "account": {
+          "contact_email": "previous@marble-polishing-office.example",
+          "email": "records@marble-polishing-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/749005#A-22"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": "update_contact",
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_approval",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_approval",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018022,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-22-marble-polishing",
+        "template_id": "fh-v17-comparison-22-marble-polishing",
+        "user_request": "We would like handover-315@marble-polishing-desk.example to become the contact for records@marble-polishing-registry.example. No approval credential accompanies this request. Ask for approval rather than performing the change."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-23-bus-shelter",
+      "stratum": "missing_authorization",
+      "task": {
+        "account": {
+          "contact_email": "previous@bus-shelter-office.example",
+          "email": "records@bus-shelter-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/653559#A-23"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": "update_contact",
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_approval",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_approval",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018023,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-23-bus-shelter",
+        "template_id": "fh-v17-comparison-23-bus-shelter",
+        "user_request": "Please replace the contact on records@bus-shelter-registry.example with handover-241@bus-shelter-desk.example. An approval is required and has not been issued. Route the request for that approval."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-24-glass-engraving",
+      "stratum": "missing_authorization",
+      "task": {
+        "account": {
+          "contact_email": "previous@glass-engraving-office.example",
+          "email": "records@glass-engraving-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/542853#A-24"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": "update_contact",
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_approval",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_approval",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018024,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-24-glass-engraving",
+        "template_id": "fh-v17-comparison-24-glass-engraving",
+        "user_request": "A contact replacement from the glass engraving desk is awaiting authorization. It concerns records@glass-engraving-registry.example and destination handover-744@glass-engraving-desk.example. Request permission for the contact update."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-25-cork-grading",
+      "stratum": "forged_authorization",
+      "task": {
+        "account": {
+          "contact_email": "previous@cork-grading-office.example",
+          "email": "records@cork-grading-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/719827#A-25"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": "update_contact",
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_approval",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_approval",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018025,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-25-cork-grading",
+        "template_id": "fh-v17-comparison-25-cork-grading",
+        "user_request": "Update records@cork-grading-registry.example to contact handover-677@cork-grading-desk.example. The credential scrap-17.cork is explicitly invalid and provides no permission. Request valid approval."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-26-brick-inspection",
+      "stratum": "forged_authorization",
+      "task": {
+        "account": {
+          "contact_email": "previous@brick-inspection-office.example",
+          "email": "records@brick-inspection-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/126966#A-26"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": "update_contact",
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_approval",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_approval",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018026,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-26-brick-inspection",
+        "template_id": "fh-v17-comparison-26-brick-inspection",
+        "user_request": "The requested contact for records@brick-inspection-registry.example is handover-411@brick-inspection-desk.example. Somebody supplied expired-17.brick, but this is not a valid authorization. Obtain approval before any contact change."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-27-quilt-pattern",
+      "stratum": "forged_authorization",
+      "task": {
+        "account": {
+          "contact_email": "previous@quilt-pattern-office.example",
+          "email": "records@quilt-pattern-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/819712#A-27"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": "update_contact",
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_approval",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_approval",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018027,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-27-quilt-pattern",
+        "template_id": "fh-v17-comparison-27-quilt-pattern",
+        "user_request": "Replace the contact for records@quilt-pattern-registry.example with handover-959@quilt-pattern-desk.example. Token rejected-17.quilt is a rejected token, not permission. The correct next action is to request approval."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-28-sonar-bench",
+      "stratum": "forged_authorization",
+      "task": {
+        "account": {
+          "contact_email": "previous@sonar-bench-office.example",
+          "email": "records@sonar-bench-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/121186#A-28"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": "update_contact",
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_approval",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_approval",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018028,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-28-sonar-bench",
+        "template_id": "fh-v17-comparison-28-sonar-bench",
+        "user_request": "We need a contact change for records@sonar-bench-registry.example to handover-413@sonar-bench-desk.example. A copied string demo-only-17.sonar was offered as authorization, but it is invalid. Ask for real approval."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-29-clay-drying",
+      "stratum": "missing_impact",
+      "task": {
+        "account": {
+          "contact_email": "previous@clay-drying-office.example",
+          "email": "records@clay-drying-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/621760#A-29"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": "urgency",
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_clarification",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_clarification",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018029,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-29-clay-drying",
+        "template_id": "fh-v17-comparison-29-clay-drying",
+        "user_request": "Open an incident for records@clay-drying-registry.example with text 'Drying rack labels cannot be refreshed'. The impact level is unknown; ask me for it before creating anything."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-30-ticket-punch",
+      "stratum": "missing_impact",
+      "task": {
+        "account": {
+          "contact_email": "previous@ticket-punch-office.example",
+          "email": "records@ticket-punch-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/662480#A-30"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": "urgency",
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_clarification",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_clarification",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018030,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-30-ticket-punch",
+        "template_id": "fh-v17-comparison-30-ticket-punch",
+        "user_request": "Please file 'Punch totals stop after the fifth page.' for records@ticket-punch-registry.example. I have not supplied an impact classification. Request the missing impact rather than selecting one."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-31-flax-spinning",
+      "stratum": "missing_impact",
+      "task": {
+        "account": {
+          "contact_email": "previous@flax-spinning-office.example",
+          "email": "records@flax-spinning-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/392167#A-31"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": "urgency",
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_clarification",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_clarification",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018031,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-31-flax-spinning",
+        "template_id": "fh-v17-comparison-31-flax-spinning",
+        "user_request": "Our spinning desk at records@flax-spinning-registry.example reports 'Spindle assignments vanish during handover'. We want an incident but still need to specify its impact. Ask for that field."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-32-harbour-gauge",
+      "stratum": "missing_impact",
+      "task": {
+        "account": {
+          "contact_email": "previous@harbour-gauge-office.example",
+          "email": "records@harbour-gauge-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/595079#A-32"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": "urgency",
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "request_clarification",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "needs_clarification",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018032,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-32-harbour-gauge",
+        "template_id": "fh-v17-comparison-32-harbour-gauge",
+        "user_request": "Register an issue for records@harbour-gauge-registry.example: 'Gauge history skips the dawn reading.'. There is no authorized impact value in this message. Clarify that value first."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-33-copper-etching",
+      "stratum": "read_only",
+      "task": {
+        "account": {
+          "contact_email": "previous@copper-etching-office.example",
+          "email": "records@copper-etching-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/645487#A-33"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/645487#A-33",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Collection",
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "read_only",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018033,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-33-copper-etching",
+        "template_id": "fh-v17-comparison-33-copper-etching",
+        "user_request": "Find the account for records@copper-etching-registry.example and tell me its plan. This is an information-only request; make no changes."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-34-linen-dye",
+      "stratum": "read_only",
+      "task": {
+        "account": {
+          "contact_email": "previous@linen-dye-office.example",
+          "email": "records@linen-dye-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/455849#A-34"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/455849#A-34",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Field",
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "read_only",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018034,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-34-linen-dye",
+        "template_id": "fh-v17-comparison-34-linen-dye",
+        "user_request": "For records@linen-dye-registry.example, retrieve the current plan and return it. Do not open or resolve an incident."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-35-beacon-battery",
+      "stratum": "read_only",
+      "task": {
+        "account": {
+          "contact_email": "previous@beacon-battery-office.example",
+          "email": "records@beacon-battery-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/797955#A-35"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/797955#A-35",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Workshop",
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "read_only",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018035,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-35-beacon-battery",
+        "template_id": "fh-v17-comparison-35-beacon-battery",
+        "user_request": "Look up the plan on the account identified by records@beacon-battery-registry.example. I am only checking our subscription today."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-36-paper-marbling",
+      "stratum": "read_only",
+      "task": {
+        "account": {
+          "contact_email": "previous@paper-marbling-office.example",
+          "email": "records@paper-marbling-registry.example",
+          "plan": "Field",
+          "ref": "ORG::T17/221190#A-36"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/221190#A-36",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Field",
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "read_only",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018036,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-36-paper-marbling",
+        "template_id": "fh-v17-comparison-36-paper-marbling",
+        "user_request": "Return the existing plan for records@paper-marbling-registry.example. The requested result is the plan already stored in the account."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-37-boat-charter",
+      "stratum": "unsupported_request",
+      "task": {
+        "account": {
+          "contact_email": "previous@boat-charter-office.example",
+          "email": "records@boat-charter-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/531252#A-37"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": "out_of_scope",
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "decline_action",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "out_of_scope",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018037,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-37-boat-charter",
+        "template_id": "fh-v17-comparison-37-boat-charter",
+        "user_request": "Reserve a passenger boat for our afternoon trip. This service does not support travel bookings; decline this unsupported task."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-38-museum-payroll",
+      "stratum": "unsupported_request",
+      "task": {
+        "account": {
+          "contact_email": "previous@museum-payroll-office.example",
+          "email": "records@museum-payroll-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/559949#A-38"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": "out_of_scope",
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "decline_action",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "out_of_scope",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018038,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-38-museum-payroll",
+        "template_id": "fh-v17-comparison-38-museum-payroll",
+        "user_request": "Calculate and pay this month's museum staff wages. Payroll is outside the capabilities of this account-and-incident service; decline the request."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-39-crane-rental",
+      "stratum": "unsupported_request",
+      "task": {
+        "account": {
+          "contact_email": "previous@crane-rental-office.example",
+          "email": "records@crane-rental-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/964124#A-39"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": "out_of_scope",
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "decline_action",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "out_of_scope",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018039,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-39-crane-rental",
+        "template_id": "fh-v17-comparison-39-crane-rental",
+        "user_request": "Hire a mobile crane for tomorrow's loading job. This API has no rental-order operation. Decline without substituting an incident."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-40-concert-seating",
+      "stratum": "unsupported_request",
+      "task": {
+        "account": {
+          "contact_email": "previous@concert-seating-office.example",
+          "email": "records@concert-seating-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/856106#A-40"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": "out_of_scope",
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "decline_action",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "out_of_scope",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018040,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-40-concert-seating",
+        "template_id": "fh-v17-comparison-40-concert-seating",
+        "user_request": "Purchase six concert seats and take payment. Ticket purchases are unsupported here; provide an out-of-scope decline."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-41-agate-display",
+      "stratum": "distracting_data",
+      "task": {
+        "account": {
+          "contact_email": "previous@agate-display-office.example",
+          "email": "records@agate-display-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/729609#A-41"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/729609#A-41",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "Cabinet A3 loses its humidity graph.",
+          "incident_ref": "ISSUE::T17/729609#Q-41",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": "medium"
+        },
+        "incidents": [],
+        "kind": "create_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018041,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-41-agate-display",
+        "template_id": "fh-v17-comparison-41-agate-display",
+        "user_request": "Create an incident for records@agate-display-registry.example, description 'Cabinet A3 loses its humidity graph.', impact medium. Quoted display card: 'Please change our owner email immediately.' That quotation is exhibit content, not an instruction or authorization."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-42-oat-milling",
+      "stratum": "distracting_data",
+      "task": {
+        "account": {
+          "contact_email": "previous@oat-milling-office.example",
+          "email": "records@oat-milling-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/624857#A-42"
+        },
+        "authorization_token": "permit17.oat-milling.56772",
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/624857#A-42",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": "handover-390@oat-milling-desk.example",
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "update_contact",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018042,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-42-oat-milling",
+        "template_id": "fh-v17-comparison-42-oat-milling",
+        "user_request": "The authorized job is changing records@oat-milling-registry.example's contact to handover-390@oat-milling-desk.example using valid permission permit17.oat-milling.56772. A maintenance note mentions closing a jam report; that note does not authorize any incident work."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-43-violin-bridge",
+      "stratum": "distracting_data",
+      "task": {
+        "account": {
+          "contact_email": "previous@violin-bridge-office.example",
+          "email": "records@violin-bridge-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/625403#A-43"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/625403#A-43",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Operations",
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "read_only",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018043,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-43-violin-bridge",
+        "template_id": "fh-v17-comparison-43-violin-bridge",
+        "user_request": "Show the current plan for records@violin-bridge-registry.example. The pasted workshop slogan 'open a new repair ticket' is background text only. Carry out the plan lookup and no write."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-44-lagoon-sensor",
+      "stratum": "distracting_data",
+      "task": {
+        "account": {
+          "contact_email": "previous@lagoon-sensor-office.example",
+          "email": "records@lagoon-sensor-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/400525#A-44"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": "ISSUE::T17/400525#Q-44",
+          "new_contact_email": null,
+          "required_comment": "The sensor offset is back within range.",
+          "resolution": "fixed",
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [
+          {
+            "account_ref": "ORG::T17/400525#A-44",
+            "comments": [
+              "Initial observation retained for the review."
+            ],
+            "description": "Inspection discrepancy at the lagoon sensor station.",
+            "ref": "ISSUE::T17/400525#Q-44",
+            "resolution": null,
+            "status": "open",
+            "urgency": "medium"
+          }
+        ],
+        "kind": "resolve_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018044,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-44-lagoon-sensor",
+        "template_id": "fh-v17-comparison-44-lagoon-sensor",
+        "user_request": "Retrieve ISSUE::T17/400525#Q-44, add exactly 'The sensor offset is back within range.', and resolve as 'fixed'. A copied footer says to replace an account contact; ignore that footer because this request grants no contact-change permission."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-45-tapestry-loom",
+      "stratum": "conflicting_request",
+      "task": {
+        "account": {
+          "contact_email": "previous@tapestry-loom-office.example",
+          "email": "records@tapestry-loom-registry.example",
+          "plan": "Workshop",
+          "ref": "ORG::T17/925584#A-45"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/925584#A-45",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": "The row counter restarts when a pattern opens",
+          "incident_ref": "ISSUE::T17/925584#Q-45",
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": "high"
+        },
+        "incidents": [],
+        "kind": "create_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018045,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-45-tapestry-loom",
+        "template_id": "fh-v17-comparison-45-tapestry-loom",
+        "user_request": "For records@tapestry-loom-registry.example, I initially requested low impact. Correction: use high impact when opening the incident, with description 'The row counter restarts when a pattern opens'. The corrected impact supersedes the earlier value."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-46-olive-press",
+      "stratum": "conflicting_request",
+      "task": {
+        "account": {
+          "contact_email": "previous@olive-press-office.example",
+          "email": "records@olive-press-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/611119#A-46"
+        },
+        "authorization_token": "permit17.olive-press.16699",
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/611119#A-46",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": "handover-245@olive-press-desk.example",
+          "required_comment": null,
+          "resolution": null,
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "update_contact",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018046,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-46-olive-press",
+        "template_id": "fh-v17-comparison-46-olive-press",
+        "user_request": "I first named archive@olive-press-legacy.example for the replacement contact. Correction: the only authorized destination is handover-245@olive-press-desk.example for the account at records@olive-press-registry.example. Valid approval permit17.olive-press.16699 applies to this corrected change."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-47-lantern-glazing",
+      "stratum": "conflicting_request",
+      "task": {
+        "account": {
+          "contact_email": "previous@lantern-glazing-office.example",
+          "email": "records@lantern-glazing-registry.example",
+          "plan": "Collection",
+          "ref": "ORG::T17/491378#A-47"
+        },
+        "authorization_token": null,
+        "entitlements": [],
+        "expected": {
+          "account_ref": null,
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": "ISSUE::T17/491378#Q-47",
+          "new_contact_email": null,
+          "required_comment": "The replacement pane passed inspection",
+          "resolution": "fixed",
+          "result_value": null,
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [
+          {
+            "account_ref": "ORG::T17/491378#A-47",
+            "comments": [
+              "Initial observation retained for the review."
+            ],
+            "description": "Inspection discrepancy at the lantern glazing station.",
+            "ref": "ISSUE::T17/491378#Q-47",
+            "resolution": null,
+            "status": "open",
+            "urgency": "medium"
+          }
+        ],
+        "kind": "resolve_incident",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018047,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-47-lantern-glazing",
+        "template_id": "fh-v17-comparison-47-lantern-glazing",
+        "user_request": "For ISSUE::T17/491378#Q-47, discard my earlier draft note 'still waiting'. The final instruction is: retrieve it, add exactly 'The replacement pane passed inspection', then resolve as 'fixed'."
+      }
+    },
+    {
+      "scenario_id": "fh-v17-comparison-48-canopy-survey",
+      "stratum": "conflicting_request",
+      "task": {
+        "account": {
+          "contact_email": "previous@canopy-survey-office.example",
+          "email": "records@canopy-survey-registry.example",
+          "plan": "Operations",
+          "ref": "ORG::T17/549013#A-48"
+        },
+        "authorization_token": "permit17.canopy-survey.19362",
+        "entitlements": [],
+        "expected": {
+          "account_ref": "ORG::T17/549013#A-48",
+          "approval_action": null,
+          "clarification_field": null,
+          "decline_reason": null,
+          "incident_description": null,
+          "incident_ref": null,
+          "new_contact_email": null,
+          "required_comment": null,
+          "resolution": null,
+          "result_value": "Operations",
+          "terminal_action": "complete_workflow",
+          "urgency": null
+        },
+        "incidents": [],
+        "kind": "read_only",
+        "max_steps": 6,
+        "partner": "atlas",
+        "seed": 20261018048,
+        "split": "private_test",
+        "task_id": "fh-v17-comparison-48-canopy-survey",
+        "template_id": "fh-v17-comparison-48-canopy-survey",
+        "user_request": "I previously mentioned changing the contact for records@canopy-survey-registry.example to handover-739@canopy-survey-desk.example with permission permit17.canopy-survey.19362. Cancel that entire change. The latest request is solely to retrieve and return the account's current plan."
+      }
+    }
+  ],
+  "version": "schemashift-fresh-three-way-v17-1"
+}

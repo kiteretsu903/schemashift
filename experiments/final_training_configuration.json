@@ -1,0 +1,60 @@
+{
+  "base_model": "accounts/fireworks/models/qwen3-4b",
+  "checkpoint_access": "Original adapters remain in the author's provider account; no public download is promised.",
+  "evaluation_inference": {
+    "concurrency": 8,
+    "max_attempts": 10,
+    "max_tokens": 512,
+    "temperature": 0
+  },
+  "lineage": "Original v5 SFT -> original v5 RFT -> supervised repair continuations -> V16 treatment",
+  "optimization": {
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "checkpoint_selection": "Final local update 36, not best on evaluation",
+    "epsilon": 1e-08,
+    "gradient_clip_norm": 0.0,
+    "implementation": "experiments/archive/worker_boundary_v15.py",
+    "learning_rate": 5e-06,
+    "local_updates_per_arm": 36,
+    "lora_alpha": 32,
+    "lora_rank": 8,
+    "loss_bearing_tokens_per_arm": 51840,
+    "optimizer": "Adam",
+    "optimizer_reset": true,
+    "seed": 0,
+    "weight_decay": 0.01
+  },
+  "source_checkpoint": "cross_job://schemashift-v13-trainer-a-001/step-153",
+  "training_phases": {
+    "training_control": {
+      "arm": "control",
+      "cap_usd": 3.25,
+      "cleanup_seconds": 300,
+      "data_file": "data/generated/v16-comment-comparison/arm-control.jsonl",
+      "execution_seconds": 600,
+      "label": "v16-comment-control",
+      "model": "accounts/example/models/schemashift-v16-comment-control-001",
+      "output_model_id": "schemashift-v16-comment-control-001",
+      "resource_id": "schemashift-v16-comment-train-control-001",
+      "resource_kind": "rlor-trainer-job",
+      "result_root": "results/comment-v16/training_control",
+      "schedule_file": "data/generated/v16-comment-comparison/arm-control-schedule.json"
+    },
+    "training_treatment": {
+      "arm": "treatment",
+      "cap_usd": 3.25,
+      "cleanup_seconds": 300,
+      "data_file": "data/generated/v16-comment-comparison/arm-treatment.jsonl",
+      "execution_seconds": 600,
+      "label": "v16-comment-treatment",
+      "model": "accounts/example/models/schemashift-v16-comment-treatment-001",
+      "output_model_id": "schemashift-v16-comment-treatment-001",
+      "resource_id": "schemashift-v16-comment-train-treatment-001",
+      "resource_kind": "rlor-trainer-job",
+      "result_root": "results/comment-v16/training_treatment",
+      "schedule_file": "data/generated/v16-comment-comparison/arm-treatment-schedule.json"
+    }
+  },
+  "weights_included": false
+}

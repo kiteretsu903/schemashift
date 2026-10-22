@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "schemashift"
+version = "0.1.0"
+description = "A stateful API workflow simulator and reproducible fine-tuning case study"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11,<3.15"
+dependencies = ["httpx>=0.28.1,<1", "openai>=2.53,<3", "pydantic>=2.13,<3"]
+
+[dependency-groups]
+dev = ["pytest>=9.1,<10", "pytest-asyncio>=1.1,<2", "ruff>=0.16,<1"]
+
+[project.scripts]
+schemashift = "schemashift.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/schemashift"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "src", "tests", "README.md", "LICENSE", "pyproject.toml", "uv.lock",
+  "evaluation", "examples", "docs", "experiments", "PORTFOLIO.md",
+  ".env.example", ".github", ".gitignore",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+"experiments/archive/*.py" = ["ALL"]

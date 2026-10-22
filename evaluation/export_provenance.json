@@ -1,0 +1,882 @@
+{
+  "files": [
+    {
+      "published": "src/schemashift/__init__.py",
+      "published_sha256": "7521a004e37345d63cafc3efc90bbb67f0afe9e3de321dc0f93d32840ad61b3d",
+      "source": "src/schemashift/__init__.py",
+      "source_sha256": "7521a004e37345d63cafc3efc90bbb67f0afe9e3de321dc0f93d32840ad61b3d",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/leakage.py",
+      "published_sha256": "dd2453fd4bb3ca5fd3f53c89ad035cd95ebfbce61ac8020f341d2e3cfb681b04",
+      "source": "src/schemashift/leakage.py",
+      "source_sha256": "dd2453fd4bb3ca5fd3f53c89ad035cd95ebfbce61ac8020f341d2e3cfb681b04",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/models.py",
+      "published_sha256": "f1782889f8b200e56b5a14b0212bfe6eda1dfe286c2f48196587ac98b938626f",
+      "source": "src/schemashift/models.py",
+      "source_sha256": "f1782889f8b200e56b5a14b0212bfe6eda1dfe286c2f48196587ac98b938626f",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/agent_v5.py",
+      "published_sha256": "dd0703d5571e18b92fd9d05a7210c90a2e2fc27acb0f08415ef95c9bf23d60c6",
+      "source": "src/schemashift/agent_v5.py",
+      "source_sha256": "dd0703d5571e18b92fd9d05a7210c90a2e2fc27acb0f08415ef95c9bf23d60c6",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/schema_v5.py",
+      "published_sha256": "1fa94eecb51d452dd5e6b224bb2669db9addb8bd20600b21a9736a21f9a6312a",
+      "source": "src/schemashift/schema_v5.py",
+      "source_sha256": "1fa94eecb51d452dd5e6b224bb2669db9addb8bd20600b21a9736a21f9a6312a",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/safety_v4.py",
+      "published_sha256": "39eed5958c05e2240ff96194c30943f1d9634d52301618318270f1373d099760",
+      "source": "src/schemashift/safety_v4.py",
+      "source_sha256": "39eed5958c05e2240ff96194c30943f1d9634d52301618318270f1373d099760",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/simulator.py",
+      "published_sha256": "7a2954394d4c8b206ddf0cf732a93f0e40c5cb7cfd096902b37d2941f1d2ff2a",
+      "source": "src/schemashift/simulator.py",
+      "source_sha256": "7a2954394d4c8b206ddf0cf732a93f0e40c5cb7cfd096902b37d2941f1d2ff2a",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/rewards.py",
+      "published_sha256": "7b47b4767989f18a5d348ab99bc68a084e2f667fe7211367bcf06b40d795bc31",
+      "source": "src/schemashift/rewards.py",
+      "source_sha256": "7b47b4767989f18a5d348ab99bc68a084e2f667fe7211367bcf06b40d795bc31",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/catalog.py",
+      "published_sha256": "1f7743585b4ce3dda247bb19057190b79423dbfa5e98596a7a6885bcada19117",
+      "source": "src/schemashift/catalog.py",
+      "source_sha256": "1f7743585b4ce3dda247bb19057190b79423dbfa5e98596a7a6885bcada19117",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/rewards_v5.py",
+      "published_sha256": "643191e5b72c797f8429b42cf0ad2bd448f7ebb9894beb48df54a4f6eafc6680",
+      "source": "src/schemashift/rewards_v5.py",
+      "source_sha256": "643191e5b72c797f8429b42cf0ad2bd448f7ebb9894beb48df54a4f6eafc6680",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/prompts.py",
+      "published_sha256": "a22e496859efb6ecd294b86b0034f8be05f764f307ef48df9c6ff59b8d696cb7",
+      "source": "src/schemashift/prompts.py",
+      "source_sha256": "a22e496859efb6ecd294b86b0034f8be05f764f307ef48df9c6ff59b8d696cb7",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/environment_v5.py",
+      "published_sha256": "ad5f2c2c775e1ec751c9869c1a4004a07e91a3e1951849f292051ba55b7d55fa",
+      "source": "src/schemashift/environment_v5.py",
+      "source_sha256": "ad5f2c2c775e1ec751c9869c1a4004a07e91a3e1951849f292051ba55b7d55fa",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/agent.py",
+      "published_sha256": "5fc698883d64b7af32325a8b816e36949c2752b5fa1f675851be3c8bca1770d3",
+      "source": "src/schemashift/agent.py",
+      "source_sha256": "5fc698883d64b7af32325a8b816e36949c2752b5fa1f675851be3c8bca1770d3",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/metrics.py",
+      "published_sha256": "c9536e422300279e712028442ea01ed0afa6d46e69b02f9bef3341cd7c7e33cd",
+      "source": "src/schemashift/metrics.py",
+      "source_sha256": "c9536e422300279e712028442ea01ed0afa6d46e69b02f9bef3341cd7c7e33cd",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/fireworks.py",
+      "published_sha256": "9a06b05e7edc00c671d4f8dfef3a3682756147f1042dda93edd1233d25901213",
+      "source": "src/schemashift/fireworks.py",
+      "source_sha256": "9a06b05e7edc00c671d4f8dfef3a3682756147f1042dda93edd1233d25901213",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/analysis_fresh_v5.py",
+      "published_sha256": "8aad952e4fe91694514cb8a29002ef1a9d19a6b4807b5b03d2fbf96c8365c079",
+      "source": "src/schemashift/analysis_fresh_v5.py",
+      "source_sha256": "8aad952e4fe91694514cb8a29002ef1a9d19a6b4807b5b03d2fbf96c8365c079",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/independent_v5.py",
+      "published_sha256": "dce790aed86c403e9124f7e72607c94ae0d2cab96fc158ba320e4ee00e44c183",
+      "source": "src/schemashift/independent_v5.py",
+      "source_sha256": "dce790aed86c403e9124f7e72607c94ae0d2cab96fc158ba320e4ee00e44c183",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/dataset_v5.py",
+      "published_sha256": "38b108f5c5ad07e3cdb6feedd3af8adf952c885791dbd0377b94ecc0698aa711",
+      "source": "src/schemashift/dataset_v5.py",
+      "source_sha256": "38b108f5c5ad07e3cdb6feedd3af8adf952c885791dbd0377b94ecc0698aa711",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "src/schemashift/generator.py",
+      "published_sha256": "4174fccd06700c592e6450f55c5c1dec0addb3e28746b1be81c4ed9cebe6c80f",
+      "source": "src/schemashift/generator.py",
+      "source_sha256": "4174fccd06700c592e6450f55c5c1dec0addb3e28746b1be81c4ed9cebe6c80f",
+      "transformation": "unchanged research implementation"
+    },
+    {
+      "published": "experiments/archive/agent_v4.py",
+      "published_sha256": "b64c6116377589ffa340cffe93885e865ae41c6d90c9dd707dce2781adafebc2",
+      "source": "src/schemashift/agent_v4.py",
+      "source_sha256": "b64c6116377589ffa340cffe93885e865ae41c6d90c9dd707dce2781adafebc2",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_authorization_v8.py",
+      "published_sha256": "7a5cadcf7f7369eb1294b23d4bd0f0b472c83b7071e5b5bdec8b401d6704a5f0",
+      "source": "src/schemashift/analysis_authorization_v8.py",
+      "source_sha256": "7a5cadcf7f7369eb1294b23d4bd0f0b472c83b7071e5b5bdec8b401d6704a5f0",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_comment_v16.py",
+      "published_sha256": "d32013fa3e90f1b28b8293ce1677a3421a67a10bebda9aefa59e01d4c428a38d",
+      "source": "src/schemashift/analysis_comment_v16.py",
+      "source_sha256": "d32013fa3e90f1b28b8293ce1677a3421a67a10bebda9aefa59e01d4c428a38d",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_comment_v16_live.py",
+      "published_sha256": "5f8899685c44589feac2117f95bb59fc30f64b3d707ef2e263bdff853fc3b44f",
+      "source": "src/schemashift/analysis_comment_v16_live.py",
+      "source_sha256": "5f8899685c44589feac2117f95bb59fc30f64b3d707ef2e263bdff853fc3b44f",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_development_v16.py",
+      "published_sha256": "9223ef68756f51526f2a13898a8bb4518e6f8b2fd802d4221456636453385204",
+      "source": "src/schemashift/analysis_development_v16.py",
+      "source_sha256": "9223ef68756f51526f2a13898a8bb4518e6f8b2fd802d4221456636453385204",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_development_v16_replay.py",
+      "published_sha256": "44fa03891a7fc279c750813b85a8344154914f38c9947707fa7e3233b38245ba",
+      "source": "src/schemashift/analysis_development_v16_replay.py",
+      "source_sha256": "44fa03891a7fc279c750813b85a8344154914f38c9947707fa7e3233b38245ba",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_matched_v7.py",
+      "published_sha256": "4157b0ccfac1aa71b30a3ecc4a7f29045ef08e43e88107ff4fd60787b2713a15",
+      "source": "src/schemashift/analysis_matched_v7.py",
+      "source_sha256": "4157b0ccfac1aa71b30a3ecc4a7f29045ef08e43e88107ff4fd60787b2713a15",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_prefix_v14.py",
+      "published_sha256": "cf10d2ce4be3ac5d90d4a9f1212725650e968d7a29dfb50e3cf519814d65d784",
+      "source": "src/schemashift/analysis_prefix_v14.py",
+      "source_sha256": "cf10d2ce4be3ac5d90d4a9f1212725650e968d7a29dfb50e3cf519814d65d784",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_stopping_v5.py",
+      "published_sha256": "a1ac4b9b455c00aa6ee2852d39e04978bf4dfca620d9766a15d5f9f4e31cdb88",
+      "source": "src/schemashift/analysis_stopping_v5.py",
+      "source_sha256": "a1ac4b9b455c00aa6ee2852d39e04978bf4dfca620d9766a15d5f9f4e31cdb88",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_targeted_v6.py",
+      "published_sha256": "6d8ae604ab2b2f3752835a8b4482994e6f714c3ca1baae42b6fac215f68f5340",
+      "source": "src/schemashift/analysis_targeted_v6.py",
+      "source_sha256": "6d8ae604ab2b2f3752835a8b4482994e6f714c3ca1baae42b6fac215f68f5340",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_training_v5.py",
+      "published_sha256": "b62603a56c67a75a6b08c2b0acd8b4e1246a6ac2587b0ef075e129b937876d5a",
+      "source": "src/schemashift/analysis_training_v5.py",
+      "source_sha256": "7312296db243387af5a1c11fd057180f022cd964bbdcae6cfe82aec5ad60ed74",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner; public export formatting or metadata cleanup"
+    },
+    {
+      "published": "experiments/archive/analysis_v5.py",
+      "published_sha256": "6bd759c14a152f7d43ae4571a8755e9bb4a72afbfa174648daa4f661ef58b0bf",
+      "source": "src/schemashift/analysis_v5.py",
+      "source_sha256": "6bd759c14a152f7d43ae4571a8755e9bb4a72afbfa174648daa4f661ef58b0bf",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/analysis_v5_auditfix.py",
+      "published_sha256": "d3921d7fc43fa47d9fab64605952394735e90dcc4adfd964d3cd76fd67a2ef27",
+      "source": "src/schemashift/analysis_v5_auditfix.py",
+      "source_sha256": "d3921d7fc43fa47d9fab64605952394735e90dcc4adfd964d3cd76fd67a2ef27",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/bfcl_runner.py",
+      "published_sha256": "1fb0874f0399f560a9887a1743536882445af9a499434b4dc90e21195aa207b7",
+      "source": "src/schemashift/bfcl_runner.py",
+      "source_sha256": "1fb0874f0399f560a9887a1743536882445af9a499434b4dc90e21195aa207b7",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/budget_comment_v16_live.py",
+      "published_sha256": "ac7eb360013352399900f30d3ff6e8083b7dce314fd9662cf0dc69bfd6f33d6c",
+      "source": "src/schemashift/budget_comment_v16_live.py",
+      "source_sha256": "ac7eb360013352399900f30d3ff6e8083b7dce314fd9662cf0dc69bfd6f33d6c",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/budget_development_v16.py",
+      "published_sha256": "1542e2e885a9dc8ab93415852e79e3fa5b9fb6328383ba632e3d00c34c5dce63",
+      "source": "src/schemashift/budget_development_v16.py",
+      "source_sha256": "1542e2e885a9dc8ab93415852e79e3fa5b9fb6328383ba632e3d00c34c5dce63",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/comparison_v17.py",
+      "published_sha256": "8519d8238e395c8fef1fe1d3edaffe323d50ab6a60392d8b794ea4cccba5d646",
+      "source": "src/schemashift/comparison_v17.py",
+      "source_sha256": "20207bd2ff4c5036c24ab95b1db6bd23c694ac17d4f8fae7d539530f81cceef2",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/dataset_authorization_v8.py",
+      "published_sha256": "a213c33409368902f704072feb196a7a302d42da12c8803efd739c6998a0f808",
+      "source": "src/schemashift/dataset_authorization_v8.py",
+      "source_sha256": "a213c33409368902f704072feb196a7a302d42da12c8803efd739c6998a0f808",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/dataset_boundary_v15.py",
+      "published_sha256": "2ee6908928d9fa7d36228064f583c61a898b7d6ab8628a22ee2d38ac2686097a",
+      "source": "src/schemashift/dataset_boundary_v15.py",
+      "source_sha256": "2ee6908928d9fa7d36228064f583c61a898b7d6ab8628a22ee2d38ac2686097a",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/dataset_controlled_v11.py",
+      "published_sha256": "378c8b7886d9df1e07637e9190c39a19e26804b66ff1a8dd25602bc2672a2f12",
+      "source": "src/schemashift/dataset_controlled_v11.py",
+      "source_sha256": "378c8b7886d9df1e07637e9190c39a19e26804b66ff1a8dd25602bc2672a2f12",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/dataset_counterbalanced_v9.py",
+      "published_sha256": "60dae9b155e2d2408ee5a2b2168f22c7115b0ca363028c62de66bfc2cf65e3db",
+      "source": "src/schemashift/dataset_counterbalanced_v9.py",
+      "source_sha256": "60dae9b155e2d2408ee5a2b2168f22c7115b0ca363028c62de66bfc2cf65e3db",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/dataset_decision_v10.py",
+      "published_sha256": "b042715ae7b2a99fe4b259a30272e9e9ed4af44e235756272693146ee4c92cfd",
+      "source": "src/schemashift/dataset_decision_v10.py",
+      "source_sha256": "b042715ae7b2a99fe4b259a30272e9e9ed4af44e235756272693146ee4c92cfd",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/dataset_diverse_v7.py",
+      "published_sha256": "2364897325d9c27ff195bc6858846b91c217bf6a9315507dbf13ceb41d6cbdee",
+      "source": "src/schemashift/dataset_diverse_v7.py",
+      "source_sha256": "2364897325d9c27ff195bc6858846b91c217bf6a9315507dbf13ceb41d6cbdee",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/dataset_targeted_v6.py",
+      "published_sha256": "b40cc314a57801ae3272719cb338d20cabb59d605cba647ccfd1feae608688fc",
+      "source": "src/schemashift/dataset_targeted_v6.py",
+      "source_sha256": "b40cc314a57801ae3272719cb338d20cabb59d605cba647ccfd1feae608688fc",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/development_v16.py",
+      "published_sha256": "00f3e8f4191ce908cddb30ae21f057121b8aa2cde0b655d5ab4ce299b86fab65",
+      "source": "src/schemashift/development_v16.py",
+      "source_sha256": "00f3e8f4191ce908cddb30ae21f057121b8aa2cde0b655d5ab4ce299b86fab65",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/diagnostic_development_v16.py",
+      "published_sha256": "0a375a73619503c9d8ad55adcbfe7c824d110fac6eaa8853c19659ccf666a3b3",
+      "source": "src/schemashift/diagnostic_development_v16.py",
+      "source_sha256": "0a375a73619503c9d8ad55adcbfe7c824d110fac6eaa8853c19659ccf666a3b3",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/diagnostic_prefix_v14.py",
+      "published_sha256": "c3b083120684fdfbc7983100bdcc2adddb56b71e4f98d5ff6d95576596ef5d11",
+      "source": "src/schemashift/diagnostic_prefix_v14.py",
+      "source_sha256": "c3b083120684fdfbc7983100bdcc2adddb56b71e4f98d5ff6d95576596ef5d11",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_authorization_v8.py",
+      "published_sha256": "22f4742ac5df36f3fbc7068b3d14804feaa93791bbcb26177002d5f981249ef1",
+      "source": "src/schemashift/evaluation_authorization_v8.py",
+      "source_sha256": "b9aaa6520f706947859d2a428aefd1a2a1534abe0d8b33303074e0b3806e2e33",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner; public export formatting or metadata cleanup"
+    },
+    {
+      "published": "experiments/archive/evaluation_counterbalanced_v9.py",
+      "published_sha256": "16cd66d97f1d088d703b50220fab71138ce55fa1750bf584c4b4070270ac0172",
+      "source": "src/schemashift/evaluation_counterbalanced_v9.py",
+      "source_sha256": "3510b00dfcbd0b9668b81f9d756051cce66e25b18780bbd67dd95a4f6fb3f329",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_fresh_v5.py",
+      "published_sha256": "8ca9231dbedf8667be4208dfb2ffdba81a62ed9a8e099ef5534f0e9e56d644a2",
+      "source": "src/schemashift/evaluation_fresh_v5.py",
+      "source_sha256": "52e4e3a783a1c494653bc8f409d002146b03d338cf794a7a29b6d7b3a685ec94",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_matched_v7.py",
+      "published_sha256": "5904c4c9135d762f736c56a71b965e15a08761db382fd91ea0a35587da12122f",
+      "source": "src/schemashift/evaluation_matched_v7.py",
+      "source_sha256": "866e06ee0e6ad3849541064b43f996c7c7c14467044bc0c5478cf06742431a5a",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_stopping_v5.py",
+      "published_sha256": "e749c51ed460056856eb33b95e7fe7d92851fd711dbfacb25e66b526f3e1a397",
+      "source": "src/schemashift/evaluation_stopping_v5.py",
+      "source_sha256": "1d9933a8a325e115bba314e0fb71ec8d77f6e5a685e9be950149b3e3d027571b",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_targeted_v6.py",
+      "published_sha256": "ee53d6220c4de3ed5b25e69daf1dd7ccf17d3c9687a91c3902a9e4eed67ef69c",
+      "source": "src/schemashift/evaluation_targeted_v6.py",
+      "source_sha256": "2c3808e676bf29aa3f73e93d0f08c0e50165849d89d4bd92fb4644c33543267a",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_training_v5.py",
+      "published_sha256": "60471cf39b31170a854d3afe8a0875e5fc3431f88b24d256d94a84e0eb8d6dc0",
+      "source": "src/schemashift/evaluation_training_v5.py",
+      "source_sha256": "63685b858390f00e88e7c5af9932a3f2a520d44d2e028c14624f27324db993bd",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_v3.py",
+      "published_sha256": "c45e4306ec461b07f899b3f382a31fa09f92271c4d53e011357eab7aa792b9e1",
+      "source": "src/schemashift/evaluation_v3.py",
+      "source_sha256": "2a4319e144e867c9b978acf3892879a5d8e6d2d971df3b1db57ce32796df4361",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_v4.py",
+      "published_sha256": "05f976842557ca57c9e0b95d3fa0b2b9a95586ae0731914e799d06f4129ac07d",
+      "source": "src/schemashift/evaluation_v4.py",
+      "source_sha256": "f06e44b6d0a3fe0724a37d7b567faf6f8d799d1bac91276348609fea669e9c46",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_v5.py",
+      "published_sha256": "ba35b657e4bd5f713ecbcfe554ca0509048602775d4beef303e1d5ea90dd682d",
+      "source": "src/schemashift/evaluation_v5.py",
+      "source_sha256": "87573abb773ad999570b3fa063f763935f357e8d5fb2c0a745147c7f9bb1a6af",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/evaluation_v5_retry.py",
+      "published_sha256": "869fd46364d4a3314ce9d32f636cea661a62f195e6815a076cc64a330157316d",
+      "source": "src/schemashift/evaluation_v5_retry.py",
+      "source_sha256": "aa7486bc3acd93aa4574f3b7b226bf9e140ae824b4b3861eb12dfc85387aff5f",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_boundary_v15.py",
+      "published_sha256": "c3be6e41ca9a468be987d3530f1a4e81637f6076d6aff4c880c83bf02faa7647",
+      "source": "src/schemashift/execution_boundary_v15.py",
+      "source_sha256": "f06d2c43076233410d10e261d9accb44a9f833ecef0761508a56204d021d7545",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_comment_v16.py",
+      "published_sha256": "9fb5e752ffa0c7b9b3580626f50f95d1cbbbc1c9da8324173d03b03cb880d37c",
+      "source": "src/schemashift/execution_comment_v16.py",
+      "source_sha256": "882e3dcf5dc9ba93963c52cff8ad912088e32efe0df72de02a087c184f05c9b6",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_comment_v16_live.py",
+      "published_sha256": "2e0e58b863430b804f0a2c6dcb9ed64339963db264e69eef89f44017594324b8",
+      "source": "src/schemashift/execution_comment_v16_live.py",
+      "source_sha256": "7085803a771d35fd3ed7e0d5b908c28b25de39912f5ab91bf6c51b674248f9d2",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_comparison_v17.py",
+      "published_sha256": "955910a478c5a88cd15d81eae3fbacd46406ec63e72975262139b895fa2d18bf",
+      "source": "src/schemashift/execution_comparison_v17.py",
+      "source_sha256": "43376941505d7c1929647f4ea9a3331a844f200e5078a472782069e132a2e91a",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_contact_v13.py",
+      "published_sha256": "a1081a2b637083f9656d4b98aab7354987eed49c44d6b89bf664ef70bb01a196",
+      "source": "src/schemashift/execution_contact_v13.py",
+      "source_sha256": "5afb214de02b708aac126bddc29dd3ced2cbdb45dcedb2670509f8605f29aacd",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_controlled_v11.py",
+      "published_sha256": "4aae1b60fed76420eac45191025b385ad1f717592a6987a8fd10ce88026378c0",
+      "source": "src/schemashift/execution_controlled_v11.py",
+      "source_sha256": "1fd455399b7e248827b48f9fe51cf5822871f195d777de79eddc8af96d3b0949",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_controlled_v11_retry.py",
+      "published_sha256": "9f103db8183fa0f4f5cc7f42bae286b98a75b6173da1dbfc5957ca12a7d8826d",
+      "source": "src/schemashift/execution_controlled_v11_retry.py",
+      "source_sha256": "12d3062d3e7ea32f708b1bc9e8d226f28e4e7b72a3037c3900ab075dfbde7675",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_decision_v10.py",
+      "published_sha256": "94b02e13cf7a4d0e51a893cba00f50bd3887f77cb39eb283255a710bcd68794d",
+      "source": "src/schemashift/execution_decision_v10.py",
+      "source_sha256": "7d867d45725f1e01f008fed8865c44662aa9b041f6a2b5e0309a3f19e9a90b53",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_development_v16.py",
+      "published_sha256": "bbe3d9196f4539ad3a1c2e0e51f23ce362e02842c34f516e783e18c39753dde8",
+      "source": "src/schemashift/execution_development_v16.py",
+      "source_sha256": "d72a1bc646e2bd3a72b324f680ff8e5acbc146edbf3fdeaa7d4bcb927826e0e7",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/execution_prefix_v14.py",
+      "published_sha256": "352e8c1cb6744a6a79d0be56aabce557c58cd1916d83955d2385c29c9b63574b",
+      "source": "src/schemashift/execution_prefix_v14.py",
+      "source_sha256": "352e8c1cb6744a6a79d0be56aabce557c58cd1916d83955d2385c29c9b63574b",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/experiment_v3.py",
+      "published_sha256": "55e625ca8d21a874aa5641b213143553d02629f0b7b2ecfdfe529231101dc033",
+      "source": "src/schemashift/experiment_v3.py",
+      "source_sha256": "55e625ca8d21a874aa5641b213143553d02629f0b7b2ecfdfe529231101dc033",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/export.py",
+      "published_sha256": "5cc020240c94c26222994e465318abd17300e8585bd217617bff5c9e5bdcb85f",
+      "source": "src/schemashift/export.py",
+      "source_sha256": "5cc020240c94c26222994e465318abd17300e8585bd217617bff5c9e5bdcb85f",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/final_cases_v3.py",
+      "published_sha256": "30f0232e874b47941f621d4b99caee2b86e2210d3f9bd79f61952d385d807144",
+      "source": "src/schemashift/final_cases_v3.py",
+      "source_sha256": "30f0232e874b47941f621d4b99caee2b86e2210d3f9bd79f61952d385d807144",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/freeze.py",
+      "published_sha256": "619c282823d642900701795bf6c7aac315099fbd5465eaeb30a215900ef3e862",
+      "source": "src/schemashift/freeze.py",
+      "source_sha256": "619c282823d642900701795bf6c7aac315099fbd5465eaeb30a215900ef3e862",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/fresh_boundary_v15.py",
+      "published_sha256": "a0eb1cc9525fd1d075d95d19e917c4c880a5f0c0c9e849449371fbb8f5ff2b95",
+      "source": "src/schemashift/fresh_boundary_v15.py",
+      "source_sha256": "a0eb1cc9525fd1d075d95d19e917c4c880a5f0c0c9e849449371fbb8f5ff2b95",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/fresh_contact_v13.py",
+      "published_sha256": "59a013778679532453be60d2c6567e175d9ec64794433b0e74313ae4ee1182d6",
+      "source": "src/schemashift/fresh_contact_v13.py",
+      "source_sha256": "59a013778679532453be60d2c6567e175d9ec64794433b0e74313ae4ee1182d6",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/planning_decision_v10.py",
+      "published_sha256": "a0413cda3287b90d5d85723959f2b4388753c940c8a34d340e0a938a7d143be0",
+      "source": "src/schemashift/planning_decision_v10.py",
+      "source_sha256": "a0413cda3287b90d5d85723959f2b4388753c940c8a34d340e0a938a7d143be0",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/replay_v4.py",
+      "published_sha256": "89ed3f9d3d7c991e809599021a3451a04f804bdf11427d632df19d062afea788",
+      "source": "src/schemashift/replay_v4.py",
+      "source_sha256": "89ed3f9d3d7c991e809599021a3451a04f804bdf11427d632df19d062afea788",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/rft_audit.py",
+      "published_sha256": "91da662deeda866bd2f67471de1ff20309889649b60ea86eb8dd9ddac33d09de",
+      "source": "src/schemashift/rft_audit.py",
+      "source_sha256": "91da662deeda866bd2f67471de1ff20309889649b60ea86eb8dd9ddac33d09de",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/rollouts_v3.py",
+      "published_sha256": "91644f714b0f9b15db4adb074a8b7f8ef50c232f3b1669a4535653ef29ba64a0",
+      "source": "src/schemashift/rollouts_v3.py",
+      "source_sha256": "91644f714b0f9b15db4adb074a8b7f8ef50c232f3b1669a4535653ef29ba64a0",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/rollouts_v5.py",
+      "published_sha256": "9f84a8b8fe6c8484a919c8957b3bc4efbcc9091eb4c02fb3cbfdf502247d694a",
+      "source": "src/schemashift/rollouts_v5.py",
+      "source_sha256": "9f84a8b8fe6c8484a919c8957b3bc4efbcc9091eb4c02fb3cbfdf502247d694a",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/selection_diverse_v7.py",
+      "published_sha256": "da0c8717a26473c6e1424d3cc6a231b2c195d27d96646f7888819b317a4e722d",
+      "source": "src/schemashift/selection_diverse_v7.py",
+      "source_sha256": "da0c8717a26473c6e1424d3cc6a231b2c195d27d96646f7888819b317a4e722d",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/selection_v3.py",
+      "published_sha256": "8cdbd541bc5ec17768ea98cad74113d2e3d54f9b514c5980c03c8be708b91c8f",
+      "source": "src/schemashift/selection_v3.py",
+      "source_sha256": "8cdbd541bc5ec17768ea98cad74113d2e3d54f9b514c5980c03c8be708b91c8f",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/sft_v2.py",
+      "published_sha256": "43c3418bbffe13c649d481f4f75c1a17f0f6f9befe91b7a293c924408b20702a",
+      "source": "src/schemashift/sft_v2.py",
+      "source_sha256": "43c3418bbffe13c649d481f4f75c1a17f0f6f9befe91b7a293c924408b20702a",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/stopping_v5.py",
+      "published_sha256": "abfcf8f49eb3a2b7add193d999e4a5eeebe8feb49510921db66c077d15a219e2",
+      "source": "src/schemashift/stopping_v5.py",
+      "source_sha256": "abfcf8f49eb3a2b7add193d999e4a5eeebe8feb49510921db66c077d15a219e2",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/training_authorization_v8.py",
+      "published_sha256": "33b2029f8b3d7cf05c4e743cca1eef0f9dc97b009097839c5d04b371cf7a4d33",
+      "source": "src/schemashift/training_authorization_v8.py",
+      "source_sha256": "33b2029f8b3d7cf05c4e743cca1eef0f9dc97b009097839c5d04b371cf7a4d33",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/training_counterbalanced_v9.py",
+      "published_sha256": "20f0fd84feb8eb7e93bdbbca8bc58ae59107f060be0417a4dfc31e2a351b0f7c",
+      "source": "src/schemashift/training_counterbalanced_v9.py",
+      "source_sha256": "20f0fd84feb8eb7e93bdbbca8bc58ae59107f060be0417a4dfc31e2a351b0f7c",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/training_matched_v7.py",
+      "published_sha256": "0f9ebc3b36fa254e3850ff0547217ed90b8e09ce91736a0208c1db4c983a0981",
+      "source": "src/schemashift/training_matched_v7.py",
+      "source_sha256": "0f9ebc3b36fa254e3850ff0547217ed90b8e09ce91736a0208c1db4c983a0981",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/training_serialization_v11.py",
+      "published_sha256": "cf12f1d0740d0f1572b0df8e718323771148b7c1fae4cbe0e6b7c19ddf41e850",
+      "source": "src/schemashift/training_serialization_v11.py",
+      "source_sha256": "cf12f1d0740d0f1572b0df8e718323771148b7c1fae4cbe0e6b7c19ddf41e850",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/training_targeted_v6.py",
+      "published_sha256": "406d096d3c11a8a97c5ba52cd5d05ea7dc46c7f8321ec906ce085d57cd86b1a6",
+      "source": "src/schemashift/training_targeted_v6.py",
+      "source_sha256": "406d096d3c11a8a97c5ba52cd5d05ea7dc46c7f8321ec906ce085d57cd86b1a6",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/training_v2.py",
+      "published_sha256": "2491ed32c6f20e5a2e56c8879e8282e5667c2dfc8aa2bd16db6cee70acfd4beb",
+      "source": "src/schemashift/training_v2.py",
+      "source_sha256": "2491ed32c6f20e5a2e56c8879e8282e5667c2dfc8aa2bd16db6cee70acfd4beb",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/training_v3.py",
+      "published_sha256": "9431fa89edc5782791d7cf897603a99bea95ec57782953642be719d5a93fe784",
+      "source": "src/schemashift/training_v3.py",
+      "source_sha256": "11e19aaef8bb576ccf813c51aa453351e7814719f76480c298e7b2983fcb33f5",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/training_v5.py",
+      "published_sha256": "4fed4db7dcbf4738a55f275cd3b92225a4ebca4d29ce65b6766c15851cafb5c0",
+      "source": "src/schemashift/training_v5.py",
+      "source_sha256": "4fed4db7dcbf4738a55f275cd3b92225a4ebca4d29ce65b6766c15851cafb5c0",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/validation_boundary_v15.py",
+      "published_sha256": "8faea95eb2974a6f24418b263446003b6ee6483b1ff24d0d551ecef89171649d",
+      "source": "src/schemashift/validation_boundary_v15.py",
+      "source_sha256": "8faea95eb2974a6f24418b263446003b6ee6483b1ff24d0d551ecef89171649d",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/validation_decision_v10.py",
+      "published_sha256": "516af84ceca5842c1025c51751f59215c4169485b9df8bd30082275300cd9414",
+      "source": "src/schemashift/validation_decision_v10.py",
+      "source_sha256": "516af84ceca5842c1025c51751f59215c4169485b9df8bd30082275300cd9414",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/validation_diverse_v7.py",
+      "published_sha256": "8e5ef7128c0c9bb24748207fd3764831a42fd43c4fdf9f4f8c0a9e93aebcb4aa",
+      "source": "src/schemashift/validation_diverse_v7.py",
+      "source_sha256": "8e5ef7128c0c9bb24748207fd3764831a42fd43c4fdf9f4f8c0a9e93aebcb4aa",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/validation_training_v5.py",
+      "published_sha256": "937ad75060042b8f243ffad2abeab008a25a1c4ac3007264ae1947f8f44b0450",
+      "source": "src/schemashift/validation_training_v5.py",
+      "source_sha256": "937ad75060042b8f243ffad2abeab008a25a1c4ac3007264ae1947f8f44b0450",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_boundary_v15.py",
+      "published_sha256": "4828700df0496fa9b568ae86e7889cac5bfb9f42542e01ca8fac6daf303dbfaa",
+      "source": "src/schemashift/worker_boundary_v15.py",
+      "source_sha256": "e015def8bd5feaed18da93dc744030bdaf55996c1b511a92a0bc0f20efbc8443",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_comment_v16.py",
+      "published_sha256": "86bf74a80fe00c828f9c5ac3575331bc7d07f6b5219a16c4676046f8406db88b",
+      "source": "src/schemashift/worker_comment_v16.py",
+      "source_sha256": "b9ade4eff832c29577cd7b1e49c01c695b5e12a6034716d8440b4682c9650779",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_comment_v16_live.py",
+      "published_sha256": "9fb3157c359f545c78edd0be0ec6a5985da403f5d9fedf6489e7d3d51fd3848a",
+      "source": "src/schemashift/worker_comment_v16_live.py",
+      "source_sha256": "032bceaf8a1814ffd050cc6e7efdcc680839f08f46ba91ba2cd5c61ad4fc634c",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_comparison_v17.py",
+      "published_sha256": "b26f1d7cfc9fb7ea443664e0f6fe6de51d60358db54bbd7b137503839c6d86d2",
+      "source": "src/schemashift/worker_comparison_v17.py",
+      "source_sha256": "b26f1d7cfc9fb7ea443664e0f6fe6de51d60358db54bbd7b137503839c6d86d2",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_contact_v13.py",
+      "published_sha256": "ef798a88527f549d1bc4f2624e289c104523638bd8b22d0cb1ca831736d200e9",
+      "source": "src/schemashift/worker_contact_v13.py",
+      "source_sha256": "d39e55ad6d9023fbd41e5dc06275e87fc37d0402591664c00aa3cf9a9b18d495",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_controlled_v11.py",
+      "published_sha256": "511e652052c528fba1d08f07e12c711aa33183fccdf0e177b7dc0c958243fadc",
+      "source": "src/schemashift/worker_controlled_v11.py",
+      "source_sha256": "9aa76017a3685b0523fc65b3d76656d6954a5977f234a784eb4bf4801d5e34c5",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_controlled_v11_retry.py",
+      "published_sha256": "3aac86e467ee092005b733e449d18bef68b4f7700ac22a345af5bc0bddc3a9f6",
+      "source": "src/schemashift/worker_controlled_v11_retry.py",
+      "source_sha256": "847157b960cc8bb744647463d5aa46341cf3800b5b135fed28d3f35ee7a3cccc",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_decision_v10.py",
+      "published_sha256": "2d30d3dd953e71952d70d989d70dda51f09cfe25d2f3eb18787233d0e43b147e",
+      "source": "src/schemashift/worker_decision_v10.py",
+      "source_sha256": "cf86e77b02f771ca75864699abb5a803289b5bd0b331a2b7bc5e199b51e1cfbb",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_development_v16.py",
+      "published_sha256": "34a19a0d6f95e29dafdd83d202081bbdc895a38c3ac759496abf037c5bd74cf8",
+      "source": "src/schemashift/worker_development_v16.py",
+      "source_sha256": "34a19a0d6f95e29dafdd83d202081bbdc895a38c3ac759496abf037c5bd74cf8",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/archive/worker_prefix_v14.py",
+      "published_sha256": "1a36559050833d5798ebfcae184ffe32189cd6ddcac9366da3a4efe41f468694",
+      "source": "src/schemashift/worker_prefix_v14.py",
+      "source_sha256": "1a36559050833d5798ebfcae184ffe32189cd6ddcac9366da3a4efe41f468694",
+      "transformation": "account namespace and local user path normalized; archival reference, not a portable runner"
+    },
+    {
+      "published": "experiments/requirements-training-v2.txt",
+      "published_sha256": "1c5e42a8a4b931147f0ba96bb3200595a95fa873245d61461ac509cac97dcc16",
+      "source": "requirements-training-v2.txt",
+      "source_sha256": "1c5e42a8a4b931147f0ba96bb3200595a95fa873245d61461ac509cac97dcc16",
+      "transformation": "unchanged dependency record"
+    },
+    {
+      "published": "src/schemashift/classification.py",
+      "published_sha256": "df4e7558002ffb872b8d098cd97071c025f306523bb9ce368dc67bf8e600b0b7",
+      "source": "src/schemashift/comparison_v17.py",
+      "source_sha256": "20207bd2ff4c5036c24ab95b1db6bd23c694ac17d4f8fae7d539530f81cceef2",
+      "transformation": "four function bodies and category constants retained; imports and local JSON reader adapted; public export formatting or metadata cleanup"
+    },
+    {
+      "published": "evaluation/fixtures/original.json",
+      "published_sha256": "5b27c9630ffbeecd27cb797d39269c3b0831a419b042d33b5ecc9e85a5d0fee0",
+      "source": "data/independent_v5_trained_scenarios.json",
+      "source_sha256": "5b27c9630ffbeecd27cb797d39269c3b0831a419b042d33b5ecc9e85a5d0fee0",
+      "transformation": "unchanged frozen synthetic fixture"
+    },
+    {
+      "published": "evaluation/recorded_runs/sft/original.jsonl",
+      "published_sha256": "5a3339fefbad367eb8a1b12d8301cf19f4d8afb7476724a76f5d6be624bb0e2a",
+      "source": "results/comparison-v17/sft/original.jsonl",
+      "source_sha256": "82801f613d824785b54f36e7e979ed9fa2e12d989c637396e6e17a3b812fabc9",
+      "transformation": "model/deployment aliases normalized; response IDs pseudonymized; run-config hashes recomputed; requests, native tool calls, observations, outcomes, timestamps and usage retained"
+    },
+    {
+      "published": "evaluation/recorded_runs/rft/original.jsonl",
+      "published_sha256": "04f6953dcdf9ef7f6faa2b9ac4d00b6041af579dcebc4caebc3b65ab6664be60",
+      "source": "results/comparison-v17/rft/original.jsonl",
+      "source_sha256": "6d0950d5112ec74cede04679c38f51706920668b472d67f11b2dbe2261b78a55",
+      "transformation": "model/deployment aliases normalized; response IDs pseudonymized; run-config hashes recomputed; requests, native tool calls, observations, outcomes, timestamps and usage retained"
+    },
+    {
+      "published": "evaluation/recorded_runs/v16/original.jsonl",
+      "published_sha256": "b1ea9cee89fa8cda2087a7759a446c5999cbc0d35370de52f560254b47edba6e",
+      "source": "results/comparison-v17/v16/original.jsonl",
+      "source_sha256": "11eba9ac29637b8210b8461bfd33f2c7a2ee65eb8c16cc111021ebc4f9db02e4",
+      "transformation": "model/deployment aliases normalized; response IDs pseudonymized; run-config hashes recomputed; requests, native tool calls, observations, outcomes, timestamps and usage retained"
+    },
+    {
+      "published": "evaluation/fixtures/fresh.json",
+      "published_sha256": "0a140be41dbac7eda9b19f96ce58dffb53b225c81e7b99dae96b10a8c75fa35f",
+      "source": "data/generated/v17-comparison/fresh_scenarios.json",
+      "source_sha256": "0a140be41dbac7eda9b19f96ce58dffb53b225c81e7b99dae96b10a8c75fa35f",
+      "transformation": "unchanged frozen synthetic fixture"
+    },
+    {
+      "published": "evaluation/recorded_runs/sft/fresh.jsonl",
+      "published_sha256": "d0374fa089d982d3fa4b0cd5236f8b99d66b59d26fcc2439a7af15bb717dd6c8",
+      "source": "results/comparison-v17/sft/fresh.jsonl",
+      "source_sha256": "74ad67e444f8043c0ea9060f8a5e0538c2392ab3e902d3a8a4856720a25273f2",
+      "transformation": "model/deployment aliases normalized; response IDs pseudonymized; run-config hashes recomputed; requests, native tool calls, observations, outcomes, timestamps and usage retained"
+    },
+    {
+      "published": "evaluation/recorded_runs/rft/fresh.jsonl",
+      "published_sha256": "341011e679945bcd88ecd18cbea41c1aa8abfe3f2b50d33735230e5cf0551104",
+      "source": "results/comparison-v17/rft/fresh.jsonl",
+      "source_sha256": "618371410b5e177180174800242e7103425eb38a465222adb2230091e82be517",
+      "transformation": "model/deployment aliases normalized; response IDs pseudonymized; run-config hashes recomputed; requests, native tool calls, observations, outcomes, timestamps and usage retained"
+    },
+    {
+      "published": "evaluation/recorded_runs/v16/fresh.jsonl",
+      "published_sha256": "118e1a43b5f860331f409a421956096f6bd4cb3f944d983c2552acbb03c9092a",
+      "source": "results/comparison-v17/v16/fresh.jsonl",
+      "source_sha256": "6aea5cdc25af91063959dac64fbebc3a84753299828e9b49a8016c01a62b774e",
+      "transformation": "model/deployment aliases normalized; response IDs pseudonymized; run-config hashes recomputed; requests, native tool calls, observations, outcomes, timestamps and usage retained"
+    },
+    {
+      "published": "experiments/results/final-results-v2.json",
+      "published_sha256": "cab7071202fde5c9c64d0f6b1090a80880b34dc49d2d70ebd4143b8d0eb25428",
+      "source": "manifests/final-results-v2.json",
+      "source_sha256": "c5f04c031cffb855ffd38888b86f45dc528cfe131bfee73a5b62ee5e7bdfabde",
+      "transformation": "account namespace and local user path normalized; historical result snapshot; public export formatting or metadata cleanup"
+    },
+    {
+      "published": "experiments/results/experiment-v5-trained-independent-results.json",
+      "published_sha256": "739bfc344b96898ce415b3361d171beb38ceb6305b5fde7d454563eaacce1c6a",
+      "source": "manifests/experiment-v5-trained-independent-results.json",
+      "source_sha256": "2e203497d4977ec949c5f1e8603ced33815c8cd2d0f8d84adcf45e3f4cbc0ff1",
+      "transformation": "account namespace and local user path normalized; historical result snapshot"
+    },
+    {
+      "published": "experiments/results/experiment-v6-targeted-results.json",
+      "published_sha256": "d067d219f0558bf41d8fd21a0f0706f042fea6ee5c91d641d282a87bde291996",
+      "source": "manifests/experiment-v6-targeted-results.json",
+      "source_sha256": "d067d219f0558bf41d8fd21a0f0706f042fea6ee5c91d641d282a87bde291996",
+      "transformation": "account namespace and local user path normalized; historical result snapshot"
+    },
+    {
+      "published": "experiments/results/experiment-v7-matched-results.json",
+      "published_sha256": "7a742550c753f71f2042cba2a9522c3b1fb570792a3cce6c7eccaaa8ef3e28a4",
+      "source": "manifests/experiment-v7-matched-results.json",
+      "source_sha256": "7a742550c753f71f2042cba2a9522c3b1fb570792a3cce6c7eccaaa8ef3e28a4",
+      "transformation": "account namespace and local user path normalized; historical result snapshot"
+    },
+    {
+      "published": "experiments/results/experiment-v8-auth-results.json",
+      "published_sha256": "4f565ff833d8d782d6f698ece7e784233ee7b344ab38f3ac7da4180936f3e6ea",
+      "source": "manifests/experiment-v8-auth-results.json",
+      "source_sha256": "4f565ff833d8d782d6f698ece7e784233ee7b344ab38f3ac7da4180936f3e6ea",
+      "transformation": "account namespace and local user path normalized; historical result snapshot"
+    },
+    {
+      "published": "experiments/results/experiment-v9-eval-results.json",
+      "published_sha256": "d67c229f3ccfdeaf95d7bd98c73fde35891c8d0238257104545440c89ee4c4f6",
+      "source": "manifests/experiment-v9-eval-results.json",
+      "source_sha256": "14fcb9f5aa0eb598a69c907df9dd6201299207d1f77bc6b564f20f9bb036c973",
+      "transformation": "account namespace and local user path normalized; historical result snapshot; public export formatting or metadata cleanup"
+    },
+    {
+      "published": "experiments/results/experiment-v13-contact-results.json",
+      "published_sha256": "b5431471087e6e2253ab21a6c4359c82d4aff5c8f6ac3b984cf1f034893fe4df",
+      "source": "manifests/experiment-v13-contact-results.json",
+      "source_sha256": "5687e6a950c7428f2c31710b68ae6abbbc9d9ad0a4bdf2d2e3e0b316603fabad",
+      "transformation": "account namespace and local user path normalized; historical result snapshot; public export formatting or metadata cleanup"
+    },
+    {
+      "published": "experiments/results/experiment-v14-prefix-results.json",
+      "published_sha256": "3d1d69831e7c9790f82f4c7394fb793b4a238f20480c4c0c0558c2b0db6d3634",
+      "source": "manifests/experiment-v14-prefix-results.json",
+      "source_sha256": "3d1d69831e7c9790f82f4c7394fb793b4a238f20480c4c0c0558c2b0db6d3634",
+      "transformation": "account namespace and local user path normalized; historical result snapshot"
+    },
+    {
+      "published": "experiments/results/experiment-v16-comment-results.json",
+      "published_sha256": "0220ab592a8f07e0d2f0424eeb8f3216d90ebf0321f0295ce96677fbedff01e2",
+      "source": "manifests/experiment-v16-comment-results.json",
+      "source_sha256": "d9315abf99ee4d26bd043392fbbe8d7f80687506dd9dc2b46ccff1138876530d",
+      "transformation": "account namespace and local user path normalized; historical result snapshot; public export formatting or metadata cleanup"
+    },
+    {
+      "published": "tests/test_safety_v5.py",
+      "published_sha256": "1725a0598ffefcb3a0c657dee94703eedcc4d2c02f9315fb85ca5aa1482f83aa",
+      "source": "tests/test_safety_v5.py",
+      "source_sha256": "1725a0598ffefcb3a0c657dee94703eedcc4d2c02f9315fb85ca5aa1482f83aa",
+      "transformation": "unchanged offline contract regression tests"
+    }
+  ],
+  "historical_model_guessed_non_reserved_email_addresses_normalized": true,
+  "local_sealed_files_verified": 740,
+  "original_closeout_sha256": "689cd53e2942b9ac8a6ebbe9968be8ba450068d58bb758b4b5b82ac4d3165a7e",
+  "original_execution_seal_sha256": "85ee5a7a50c186f49562fcaa13718aa3cd6716bbe724959908bddcde0dd04bb9",
+  "original_frozen_files_modified": false,
+  "original_results_sha256": "7142c48c82e05008b59fbcf69ccbbb256ee04a9a2b382f88e717675b20ad3d19",
+  "private_provider_registration_objects_omitted": true,
+  "public_export_is_a_derivative": true,
+  "public_training_settings_source": "src/schemashift/worker_boundary_v15.py and final V16 receipts",
+  "unavailable_external_temporary_sdk_files": 13
+}
